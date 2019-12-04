@@ -1,0 +1,53 @@
+html, body {
+   background: #fafafa;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5  {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    color: #3c3c3b;
+    
+}
+
+body{
+    font-size:1rem;
+   
+}
+h1, h2, h3 {color:#211554;}
+
+.base-div {
+    width: 100%;
+}
+
+.ui.vertical.menu .menu .item {
+    padding: 16px 10px !important;
+}
+
+.content-container{
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.center .header {height:60px;}
+.main {flex: 1 1 auto;}
+.main .header {margin-left:15px;}
+.main .top { margin-left:15px;}
+.primary-container { margin-left:15px;}
+
+.page-heading {
+    width:85%;
+    margin:0 auto;
+    padding-top:25px;
+}
+
+.page-content {
+    width:85%;
+    margin: auto;
+}
+
+.container-row{
+    padding: 10px 0px 10px 0px;
+    display:flex;
+    padding-bottom: 50px;
+}

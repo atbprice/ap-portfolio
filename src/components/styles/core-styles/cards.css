@@ -1,0 +1,26 @@
+
+.example-card {
+    width: 300px;
+    height:200px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    border-radius: 4px;
+}
+
+.card-block {
+    padding-top:20px;
+}
+
+.css-styling {
+    padding:10px;
+    font-size:12px;
+    background-color: #F4F5F7;
+    width:75%;
+    margin: auto auto;
+    border-radius: 4px;
+    position: relative;
+    top:13%;
+}

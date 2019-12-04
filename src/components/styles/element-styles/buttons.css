@@ -1,0 +1,124 @@
+.example {
+    padding:30px 0;
+    width:100%;
+}
+.example img {
+    margin: auto;
+    display: block;
+    width: 57%;
+}
+.btn {
+    height: 36px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size:1.10rem;
+    line-height: 35px;
+    text-align: center;
+    min-width: 220px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #211554;
+    color: #FFFFFF;
+}
+
+.primary-btn.hover {
+    background-color: #4E35B7;
+}
+.primary-btn.disabled, .secondary-btn.disabled, .delete-btn.disabled, .delete-second-btn.disabled, 
+.delete-icon-btn.disabled, .pending-btn.disabled {
+    opacity: 0.40;
+}
+
+.secondary-btn {
+    background-color: #ffffff;
+    border:2px solid #211554;
+    color: #211554;
+}
+
+
+
+.secondary-btn.hover {
+    background-color: #c6c6c6;
+}
+
+
+.delete-btn {
+    background-color: #DB2D43;
+    color: #FFFFFF;
+}
+
+.pending-btn {
+    background-color: #E3AB2A;
+    color: #FFFFFF;
+}
+
+.pending-btn.hover {
+    background-color: #B17F0C;
+}
+
+.delete-btn.hover {
+    background-color: #ED001D;
+}
+
+.delete-second-btn {
+    background-color: #ffffff;
+    border:2px solid #DB2D43;
+    color: #DB2D43;
+    
+}
+
+.delete-second-btn.hover {
+    background-color: #FFADC0;
+}
+
+.btn-container {
+    width:240px;
+    display: block;
+    margin:0 auto;
+    float:left;
+
+}
+.btn-title {
+    width: 100%;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.btn-styles {
+    width: 200px;
+    margin-left: 9px;
+    padding-top: 10px;
+    padding:10px;
+    font-size:12px;
+    background-color: #F4F5F7;
+    margin-top:10px;
+    border-radius: 4px;
+    
+}
+.example-btn-standard {
+    width: 300px;
+}
+
+.example-btn-small {
+    width: 200px;
+    margin-top:5px;
+}
+
+.delete-icon-btn {
+    background-color: #EFDFDE;
+    height:50px;
+    width: 50px;
+    border: 0 !important;
+    box-shadow: 0px 0px 0px 1px rgba(172,2,23,0.3) !important;
+    color: #DB2D43;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size:1.10rem;
+}
+
+.delete-icon-btn.hover {
+    background-color: #E89E99;
+}

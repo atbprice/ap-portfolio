@@ -1,0 +1,82 @@
+.ui.navi {
+    width: 224px;
+    flex: 0 0 auto;
+}
+
+.ui.menu {
+    border-radius: 0;
+    border: 0;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size:1.25rem;
+    line-height:30px;
+    color:#3c3c3b;
+}
+
+
+.top-line {
+    height:100%;
+    background-color:#211554;
+    width:64px;
+    float: left;
+    padding-top:10px;
+}
+
+.top-line .stripe {
+    width: 24px;
+    height: 5px;
+    display: block;
+    background-color: #51DEB7;
+    margin-left:10px;
+    border-radius: 25px;
+}
+
+
+.ui.vertical.menu {
+    background-color:#F4F5F7;
+    color:#211554;
+    font-weight:bold;
+    font-size:18px;
+    padding:10px;
+    float:left;
+    margin-top:0;
+    height:100%;
+    width:160px !important;
+    box-shadow:0 0 3px rgba(88,88,88,.29);
+}
+
+.ui.vertical.menu .header :not(:first-child) {
+    padding-top:20px;
+}
+
+.core-link {
+    font-family: co-headline, sans-serif !important;
+    font-size:2rem;
+    color:#ffffff;
+    margin-left:10px;
+    
+}
+
+a.core-link:hover {
+    color:#c6c6c6;
+}
+
+
+ .ui.menu a.item:hover {
+    color: #c6c6c6 !important;
+}
+
+.ui.grid>.column:not(.row) {
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+}
+
+.logo {
+    width:60px;
+    height:35px;
+    display: block;
+    background-image: url('./assets/di.logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    margin-bottom: 40px;
+}
