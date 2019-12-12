@@ -15,36 +15,41 @@
 
 
 
-
-
 .color-container {
-    width:200px;
-    display: block;
-    margin:0 auto;
-    float:left;
+    margin-top: 30px;
+}
 
+.color-container h4 {
+   margin-left: 75px;
+   
 }
 
 .color-block {
-    width:200px;
+    width:100px;
     height:100px;
     display: block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 100px;
     -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
     -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
     box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
+    margin: auto;
 
 }
 
 .color-text {
-    background-color: #fafafa;
-    height:100px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    height:80px;
     padding:10px;
-    border:1px solid #EFEFEF;
-    -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
-    -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
-    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
+    width: 150px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    margin-top: 20px;
+
+   
+}
+
+.color-row {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
 }

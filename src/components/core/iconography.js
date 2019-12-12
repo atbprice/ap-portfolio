@@ -15,12 +15,16 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import '../styles/core-styles/iconography.css'
 import serverIcon from '../styles/assets/server-icon.png';
 import connectIcon from '../styles/assets/connect-icon.png';
-import invoiceIcon from '../styles/assets/invoice-icon.png'
+import invoiceIcon from '../styles/assets/invoice-icon.png';
+import DesignNavi from '../design/design-navi';
 
 
 
 const Iconography = () => {
     return(
+        <div className="grid-display">
+            <DesignNavi />
+        
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Iconography</h1>
@@ -120,6 +124,7 @@ const Iconography = () => {
                 </div>
             </div>
 
+        </div>
         </div>
 
     );

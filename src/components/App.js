@@ -14,22 +14,31 @@ import Dropdowns from './elements/dropdowns';
 import TextField from './elements/text-field';
 import Notifications from './elements/notifications';
 import Toggles from './elements/toggles';
+import Header from './header';
 
-import Navigation from './navigation';
+
+import BrandMain from './brand/brand-main';
+import DesignMain from './design/design-main';
+import DevMain from './dev/dev-main';
 import './core.css';
+
 
 
 const App = () => {
     return(
-        <div className="base-div ">
+        <div className="base-div">
             <BrowserRouter>
                 <div className="content-container">
-                   
-                        <Navigation />
+                    <Header />
+                        {/* <Navigation /> */}
                 
-                    <div className="main">
-                    
+                    <div className="main-section">
+
                         <Route path="/" exact component={dsLanding} />
+                        <Route path="/brand/brand-main" exact component={BrandMain} />
+                        <Route path="/design/design-main" exact component={DesignMain} />
+                        <Route path="/dev/dev-main" exact component={DevMain} />
+
                         <Route path="/core/colours" exact component={Colours} />
                         <Route path="/core/typeface" exact component={Typography} />
                         <Route path="/core/icons" exact component={Iconography} />

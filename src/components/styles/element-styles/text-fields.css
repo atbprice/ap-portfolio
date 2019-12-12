@@ -1,0 +1,137 @@
+.input-container {
+    margin: 0 auto;
+}
+
+.input-field input {
+    height: 40px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.input-label{
+    float: left;
+    width: 100%;
+}
+
+.text-fields {
+    padding:20px;
+    margin-bottom: 50px;
+}
+
+.text-fields.container-row:last-of-type {
+    margin-bottom:50px;
+}
+
+.text-fields .row {
+    width: 100%;
+}
+
+.helper .horiz-line {
+    width:35px;
+    background-color: #DA6A84;
+    height: 4px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: -42px;
+    left: 102%;
+}
+
+.helper .vert-line {
+    width:4px;
+    background-color: #DA6A84;
+    height: 40px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: -63px;
+    left: 102%;
+}
+
+.helper p {
+    position: relative;
+    top: -94px;
+    left: 115%;
+}
+
+.input-pad {
+    margin-top:-13px;
+}
+
+.required-flag {
+    width: 10px;
+    height: 10px;
+    background-color: #DB2D43;
+    border-radius: 100px;
+    position: relative;
+    display: block;
+    top: 25px;
+    left: 95%;
+}
+
+.required-message {
+    color:#DB2D43;
+    font-size:12px;  
+    float: right;
+}
+
+.required-message.green {
+    color:#3EAB8C;
+    background: none;
+}
+
+.input-field {
+    width: 325px;
+    float: left;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.input-field .email-icon {
+    position: relative;
+    left:91%;
+    top:-31px;
+    font-weight: bold;
+    font-size:1.25rem;
+
+}
+
+.text-container {
+    width: 100%;
+    float:left;
+}
+.input-container h4 {
+    width: 100%;
+    float: left;
+}
+
+.text-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+}
+
+.sub-text{
+    grid-column-start: 1;
+    gap:20px; 
+}
+.sub-text p {
+    margin: 0 0 0.2em;
+}
+
+.sub-text.right {
+    grid-column-start: 2;
+}
+
+.field-details {
+    padding-bottom:20px;
+}
+
+.disabled-input {
+    background-color: #d6d6d6 !important;
+}
+

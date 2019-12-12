@@ -6,11 +6,11 @@ const Navigation = () => {
     return(
        
         <div className="ui navi">
-            <div className="top-line">
+            {/* <div className="top-line">
                 <span className="logo"></span>
                 <Link to="/" className="core-link">Ds</Link>
                 <span className="stripe"></span>
-            </div>
+            </div> */}
             <div className="ui vertical menu">
             <div className="header">DS.Core</div>
             <div className="menu">

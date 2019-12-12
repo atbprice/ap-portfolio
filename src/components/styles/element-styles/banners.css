@@ -1,0 +1,52 @@
+.banner {
+    margin-top:30px;
+    background-color: #E3AB2A;
+    height:75px;
+    width: 100%;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+}
+.banner h2 {
+    font-size:1.25rem;
+    font-weight: bold;
+    padding: 0 20px;
+    color: #494949;
+    float: left;
+    width: 90%;
+}
+
+.banner p {
+    float: left;
+    width: 95%;
+    padding: 0 20px;
+    margin-top:-2px;
+    font-size:0.875rem;
+}
+
+.banner-icon {
+    padding-top:22px;
+    display: block;
+    float: left;
+    padding-left:25px;
+    height: 100%;
+}
+
+.banner-text {
+    width:  90%;
+    float: left;
+    padding-top: 11px;
+}
+
+.banner .cancel {
+    padding-top:7px;
+    position: absolute;
+    margin-left: -1%;
+}
+
+.banner-screen {
+    padding-top:50px;
+}
+
+.banner-screen img {
+    width: 100%;
+    border: 1px solid #eaeaea;
+}

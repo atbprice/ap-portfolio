@@ -1,0 +1,106 @@
+.grid-row {
+    display: grid;
+    grid-template-columns: 47.5% 5% 47.5%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+}
+
+.grid-row.spacing {
+    margin-top: 50px;
+}
+
+.data-list {
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
+    border-radius: 4px;
+    padding: 30px;
+    
+}
+
+.data-list .row {
+    background-color: #fafafa;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px;
+    min-height: 60px;
+    margin-bottom: 5px;
+}
+
+.data-list .row.small {
+    font-size: 0.875rem;
+    display: grid;
+    grid-template-columns: 14% 70% 14%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+}
+
+.data-list .row.small h3 {
+    font-size: 1rem;
+    
+}
+
+.data-list .row .avatar {
+    width: 38px;
+    height: 38px;
+    background-color: #211554;
+    border-radius: 50px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right:20px;
+}
+
+.data-list .row .title {
+    margin-top: 10px;
+}
+.data-list .row.small .content-text {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.data-list .row.small .content-text h3 {
+   margin-bottom: 0 !important;
+}
+.data-list .row.small .content-text .email {
+    position: relative;
+    top: -5px;
+}
+
+
+.data-list .row .email {
+    margin-top: -5px;
+    color: #8A63FC;
+}
+
+.data-list .row.small .delete-icon-btn {
+    height: 35px;
+    width: 35px;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 12px;
+    
+}
+
+
+.table-header {
+    display: grid;
+    grid-template-columns: 30% 30% 25% 15%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+    background-color:#fafafa;
+    padding:20px;
+    border-bottom: 1px solid #E0E0E0;
+    
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 30% 30% 25% 15%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+    padding:15px 10px 15px 20px;
+    border-bottom: 1px solid #E0E0E0;
+}

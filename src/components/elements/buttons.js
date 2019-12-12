@@ -3,9 +3,13 @@ import exampleButton from '../styles/assets/example-button.png';
 import StandardHeightButton from '../styles/assets/standard-height-button.png';
 import SmallHeightButton from '../styles/assets/small-height-button.png'
 import '../styles/element-styles/buttons.css'; 
+import DesignNavi from '../design/design-navi';
 
 const Buttons = () => {
     return (
+        <div className="grid-display">
+            <DesignNavi />
+       
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Buttons</h1>
@@ -262,6 +266,7 @@ const Buttons = () => {
             </div>
             
         </div>
+    </div>
     </div>
 
     )

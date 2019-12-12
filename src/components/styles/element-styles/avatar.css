@@ -1,0 +1,31 @@
+.avatar-example  {
+    width: 100%;
+
+}
+
+.avatar-example img {
+    margin: 30px auto;
+    width: 130px;
+    display: block;
+}
+
+
+
+.avatar-position{
+    width: 100%;
+}
+
+.avatar-position img {
+    margin: auto;
+    display: block;
+}
+
+.cardversion {width: 38px;}
+.loggedinversion {width:45px;}
+.profileversion {width: 66px;}
+.userdetailsversion {width: 180px;}
+
+.container-row.avatar {
+    grid-template-columns: 50% 50% !important;
+    column-gap: 2rem;
+}

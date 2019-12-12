@@ -1,8 +1,13 @@
 import React from 'react';
 import '../styles/core-styles/typography.css';
+import DesignNavi from '../design/design-navi';
+
 
 const Typography = () => {
     return(
+        <div className="grid-display">
+            <DesignNavi />
+        
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Typography</h1>
@@ -78,6 +83,7 @@ const Typography = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
     

@@ -1,6 +1,5 @@
 .ui.navi {
-    width: 224px;
-    flex: 0 0 auto;
+    margin-top: 50px;
 }
 
 .ui.menu {
@@ -32,21 +31,51 @@
 
 
 .ui.vertical.menu {
-    background-color:#F4F5F7;
+
     color:#211554;
     font-weight:bold;
     font-size:18px;
-    padding:10px;
+    background-color: #ffffff;
     float:left;
     margin-top:0;
     height:100%;
-    width:160px !important;
-    box-shadow:0 0 3px rgba(88,88,88,.29);
+    width:180px !important;
+    box-shadow:none;
+    border-right: 1px solid #e8e8e8;
+   
+}
+
+.ui.vertical.menu .header {
+    padding-left: 10px;
+    font-family: co-headline, sans-serif !important;
+    font-weight: 400;
+    padding:16px 10px !important
 }
 
 .ui.vertical.menu .header :not(:first-child) {
     padding-top:20px;
 }
+
+
+
+.ui.vertical.menu .active.item {
+    color: #8A63FC !important;
+    background-color: rgba(130,99,252,.08);
+}
+
+.ui.secondary.vertical.pointing.menu .active.item {
+    border-color:#8A63FC;
+    border-width: 3px;
+    background-color: rgba(130,99,252,.08);
+}
+.ui.secondary.pointing.menu .active.item {
+    font-weight: 400;
+}
+
+.ui.vertical.menu .active :hover {
+    color: red;
+}
+
 
 .core-link {
     font-family: co-headline, sans-serif !important;
@@ -80,3 +109,4 @@ a.core-link:hover {
     background-position: center;
     margin-bottom: 40px;
 }
+

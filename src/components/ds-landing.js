@@ -1,33 +1,42 @@
 import React from 'react';
 import './styles/dsLanding.css'
-import { Link } from 'react-router-dom';
+import ReactImage from './styles/assets/react-icon.png';
+import Hero from './styles/assets/hero.png';
+import DIlogo from './styles/assets/logo.png';
 
 const dsLanding = () => {
     return(
-        <div className="main-content">
-             <div className="top">
-             Design System landing page
-             <div className="corp-logo">
+        <div>
+            <div className="main-content">
+                <div className="title-text">
+                    <h1>Design System</h1>
+                    <p>Built to instill the core values of our business</p>
+                        <ul>
+                            <li>Bold</li>
+                            <li>Confident</li>
+                            <li>Interesting</li>
+                            <li>Pioneering</li>
+                            <li>Distinctive</li>
+                        </ul>
+                    
 
-             </div>
-            </div>
-            <div className="bottom-left">
-                <Link className="section-link" to="/">
-                <div className="title">Ds<span></span></div>
-                <div className="text">Design System</div>
-                <span className="icon"></span>
-                </Link>
                 
+                </div>
+                <div className="hero-image">
+                    <img src={Hero} alt="hero" />
+
+                </div>
+            
+            
             </div>
-            <div className="bottom-right">
-                <Link className="section-link" to="/" >
-                    <div className="title">Cl<span></span></div>
-                    <div className="text">Component Library</div>
-                    <span className="icon"></span>
-               
-                </Link>
+            <div className="detail-container">
+                <div className="company-react">
+                    <span><img className="di-logo" src={DIlogo} alt="" /></span>
+                    <span>+</span>
+                    <span><img src={ReactImage} alt="" /></span>
+                </div>
             </div>
-        </div>
+         </div>
 
 
         
