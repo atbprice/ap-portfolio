@@ -1,0 +1,94 @@
+.component-template {
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 2px 8px #f0f1f2;
+    float: left;
+    padding-bottom: 50px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+}
+
+.comp-title {
+    padding-left: 15%;
+    float: left;
+    width: 70%;
+    color: #211554;
+}
+.comp-tag {
+    float: right;
+    width: 30%;
+    padding-top: 30px;
+    font-family:Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+.component-template .article-section {
+    padding: 20px 20%;
+    width: 100%;
+    float: left;
+}
+
+.install-tag {
+    float: left;
+    width: 100%;
+    padding-left: 20%;
+    padding-bottom: 20px;
+    font-family:Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+.install-tag .include-tag {
+    width: 400px;
+    float: left;
+}
+
+.install-tag span {
+    width: 70px;
+    float: left;
+}
+
+.line-break {
+    width: 80%;
+    height: 3px;
+    margin-left: 10%;
+    float: left;
+    background-color: #d6d6d6;
+}
+    
+    .usage-section {
+        width:100%;
+        float: left;
+        padding: 0 20%;
+
+    }
+
+    .code-tag {
+        background-color: #F7F7F7;
+        border: 1px solid #E5E5E5;
+        padding: 10px 30px;
+        border-radius: 6px;
+        font-family:Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    }
+
+.pink {
+    color: #DA6A84;
+    padding-right: 5px;
+}
+
+.green-code {
+    color: #51DEB7;
+    padding-left: 5px;
+}
+
+.example-button {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 40%;
+
+}
+
+.example-button .primary-btn {
+    margin: auto;
+}
+
+.primary-btn.hover {
+    background-color: #4E35B7;
+}

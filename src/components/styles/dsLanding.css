@@ -9,114 +9,6 @@
     
 }
 
-.main-content .top{
-    width:100%;
-    height:50%;
-}
-
-/******* Design system card  *****/
-.main-content .bottom-left {
-    background-color:#211554;
-    width:50%;
-    height:50%;
-    background-image: url(./assets/computer-icon.png);
-    background-repeat: no-repeat;
-    background-position: top 10% right 5%;
-    background-size: 150px;
-    float: left;;
-}
-
-.main-content .bottom-left .title {
-    font-family: co-headline, sans-serif !important;
-    color: #ffffff;
-    font-size:4rem;
-    text-align: center;
-    line-height: 50px;
-    padding-top:15%;
-    width: 100px;
-    margin:auto;
-}
-
-.main-content .bottom-left .title span {
-    width: 35px;
-    height: 5px;
-    display: block;
-    background-color: #51DEB7;
-    margin-left:8px;
-    border-radius: 25px;
-    margin: 8px 0 0 15px;
-}
-
-.main-content .bottom-left .text {
-    color: #ffffff;
-    font-size:1.25rem;
-    text-align: center;
-    line-height: 35px;
-}
-
-.main-content .bottom-left .icon {
-    height:150px;
-    width:100%;
-    display: block;
-    background-image: url('./assets/xd-icon.png');
-    background-repeat: no-repeat;
-    background-position:5%;
-    
-
-}
-
-/******* Component Library card  *****/
-
-.main-content .bottom-right {
-    background-color:#8A63FC;
-    width:50%;
-    height:50%;
-    background-image: url(./assets/component.png);
-    background-repeat: no-repeat;
-    background-position: top 10% left 5%;
-    background-size: 150px;
-    float: left;
-    
-}
-
-.main-content .bottom-right .title {
-    font-family: co-headline, sans-serif !important;
-    color: #ffffff;
-    font-size:4rem;
-    text-align: center;
-    line-height: 50px;
-    padding-top:15%;
-    width: 100px;
-    margin:auto;
-}
-
-.main-content .bottom-right .title span {
-    width: 35px;
-    height: 5px;
-    display: block;
-    background-color: #51DEB7;
-    margin-left:8px;
-    border-radius: 25px;
-    margin: 8px 0 0 15px;
-}
-
-.main-content .bottom-right .text {
-    color: #ffffff;
-    font-size:1.25rem;
-    text-align: center;
-    line-height: 35px;
-}
-
-.main-content .bottom-right .icon {
-    height:150px;
-    width:100%;
-    display: block;
-    background-image: url('./assets/react-icon.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-
-}
-
 .section-link{
     display: block;
 }
@@ -146,6 +38,12 @@
 
 .hero-image img {
     width: 80%;
+    opacity: 0.40;
+}
+.experience-image {
+    width: 50% !important;
+    margin: auto;
+    display: block;
 }
 
 .detail-container {
@@ -157,12 +55,27 @@
 .company-react {
     height: 100px;
     width: 40%;
-    margin: auto;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: 40% 10% 40%;
     grid-template-rows: auto;
     justify-items: stretch;
     text-align: center;
+}
+
+.brand-values {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.brand-values span {
+    font-family: co-headline, sans-serif !important;
+    color: #211554;
+    font-size:1.75rem;
 }
 
 
@@ -178,6 +91,5 @@
 .company-react span {
     line-height: 137px;
     font-size: 30px;
-    
 
 }

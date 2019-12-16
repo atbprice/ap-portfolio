@@ -28,13 +28,13 @@ const Iconography = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Iconography</h1>
-                <p>Icons are visual representations of commands or common actions and are used to visually enhance the interface & improve usability.<br />
+                <p className="article-section">Icons are visual representations of commands or common actions and are used to visually enhance the interface & improve usability.<br />
                     They should adhere to existing  be simple, yet bold enough to grab attention, and leave a lasting impression. <br />
                     We also have object icons which are grouped and color-coded by use case, and are derived from this iconography foundation.</p>
             </div>
             <div className="page-content">
                 <h2>Navigation Icons</h2>
-                <p>These icons are to be used for the navigation of the application, each distinct area of the platform will have its own associated icon.</p>
+                <p className="article-section">These icons are to be used for the navigation of the application, each distinct area of the platform will have its own associated icon.</p>
                 <div className="icon-block">
                     <div className="icon-container">
                         <FontAwesomeIcon icon={faChartBar} size="3x" />
@@ -59,7 +59,7 @@ const Iconography = () => {
                 </div>
                 
                 <h2>Command Icons</h2>
-                <p>Icons defined as command icons are used to simplify the UI & reduce the amount of text on screen. Each command icon has to provide
+                <p className="article-section">Icons defined as command icons are used to simplify the UI & reduce the amount of text on screen. Each command icon has to provide
                 an obvious use case.</p>
                 <div className="icon-block">
                     <div className="icon-container">
@@ -89,7 +89,7 @@ const Iconography = () => {
                     </div>
                 </div>
                 <h2>Input Icons</h2>
-                <p>Icons defined as command icons are used to simplify the UI & reduce the amount of text on screen. Each command icon has to provide
+                <p className="article-section">Icons defined as command icons are used to simplify the UI & reduce the amount of text on screen. Each command icon has to provide
                 an obvious use case.</p>
                 <div className="icon-block">
                     <div className="icon-container">
@@ -109,7 +109,7 @@ const Iconography = () => {
                     </div>
                 </div>
                 <h2>Brand Icons</h2>
-                <p>Icons defined as brand based are used to improve the visual appeal of a view. e.g. dashboard.</p>
+                <p className="article-section">Icons defined as brand based are used to improve the visual appeal of a view. e.g. dashboard.</p>
                 <div className="icon-container">
                     <img alt="server icon" className="icon-img" src={serverIcon} />
                     

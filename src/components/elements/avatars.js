@@ -12,7 +12,7 @@ const Avatars = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Avatars</h1>
-                <p>Personalisation is an important part of a users familiarisation with using an application regularly. As such avatars are supported within our applications,
+                <p className="article-section">Personalisation is an important part of a users familiarisation with using an application regularly. As such avatars are supported within our applications,
                 the implementation of them is limited to specific use cases, initially focused around user management & my profile in the early stages. </p>
             </div>
             <div className="page-content">

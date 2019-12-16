@@ -25,10 +25,10 @@
 }
 
 .color-block {
-    width:100px;
+    width:85%;
     height:100px;
     display: block;
-    border-radius: 100px;
+    border-radius: 8px;
     -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
     -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
     box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.16);
@@ -39,11 +39,11 @@
 .color-text {
     height:80px;
     padding:10px;
-    width: 150px;
+    width: 85%;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.16);
-    margin-top: 20px;
+    margin-top: -5px;
 
    
 }

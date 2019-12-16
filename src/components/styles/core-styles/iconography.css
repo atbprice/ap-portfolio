@@ -29,4 +29,9 @@
     padding-top:10px;
 }
 
+.icon-container .svg-inline--fa.fa-w-14 {
+    position: inherit !important;
+    right: 0;;
+}
+
 

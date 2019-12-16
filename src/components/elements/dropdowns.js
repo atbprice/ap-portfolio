@@ -15,7 +15,7 @@ const Dropdowns = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Dropdown Menu</h1>
-                <p>A dropdown is used in a variety of cases where there is more than 2 potential options. This component allows the user to select from the available options. </p>
+                <p className="article-section">A dropdown is used in a variety of cases where there is more than 2 potential options. This component allows the user to select from the available options. </p>
             </div>
             <div className="page-content">
                 <div className="">
@@ -59,8 +59,6 @@ const Dropdowns = () => {
                             <h4>Active:selected</h4>
                             <img className="drop-exp" src={ExampleDropdown} alt="Example dropdown" />      
                         </div>
-                    </div>
-                    <div className="drop-row">
                         <div>
                             <h4>Required Dropdown</h4>
                             <img className="drop-exp req" src={RequiredDropdown} alt="Example dropdown" />    

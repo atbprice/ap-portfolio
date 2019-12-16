@@ -11,16 +11,20 @@ const Colours = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Colours</h1>
-                <p>The colours to be used within all of our applications are provided here.</p>
+                <p className="article-section">Our colour palettes provide a set of unique colours to emphasise the strength of our brand, complimented where required with core action colours. 
+                    We aim to enable our customer to customize their interface to align with their corporate palette. Defining our brand palette provides a base for this to be achieved.
+                </p>
             </div>
             <div className="page-content color-page">
-                <h2>Primary Colours</h2>
+                <h2>Primary Colour Palette</h2>
+                <p className="article-section">Our primary colour palette has been established to provide emphasise our new identity, whilst aknowledging where we have came from.</p>
                 <div className="color-row">
                     <ColourContainer colourName="Dark Grey" color="color-block dark-grey" hex="#3c3c3b" rgb="60 60 59" />
                     <ColourContainer colourName="Dark Purple" color="color-block dark-purple" hex="#211554" rgb="31 21 84" />
                     <ColourContainer colourName="Violet" color="color-block violet" hex="#8A63FC" rgb="138 99 252" />
                 </div>
                 <h2>Secondary Colours</h2>
+                <p className="article-section">The secondary palette has been established to provide complimentary options for our primary palette.</p>
                 <div className="color-row">
                     <ColourContainer colourName="Sky" color="color-block sky" hex="#15BDDE" rgb="21 189 222" />
                     <ColourContainer colourName="Mint" color="color-block mint" hex="#51DEB7" rgb="81 222 183" />

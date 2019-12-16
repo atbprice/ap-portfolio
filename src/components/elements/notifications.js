@@ -42,7 +42,7 @@ const Notifications = () => {
                         <p>Width 250px</p>
                     </div> 
                 </div>
-                <div className="container-row">
+                <div className="container-row toast-row">
                 <div>
                 <h4>Success Toast</h4>
                 <p>The success toast is to be used for provided positive messages to the user upon completion of activities.</p>

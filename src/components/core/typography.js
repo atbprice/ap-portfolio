@@ -11,80 +11,79 @@ const Typography = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Typography</h1>
-                <p>Text is the most important element of Data interchange products. It delivers content to the user for a wide variety of use cases.</p>
+                <p className="article-section">Text is the primary method of communication across all outputs. We are able to provide a typographic scale that ensures consistency across our product suite.</p>
             </div>
             <div className="page-content">
-            <h2>Font Stacks</h2>
-                <p>Data Interchange have selected the below font stacks to be  utilised across all mediums.</p>
+            <h2>Core Fonts</h2>
+                <p className="article-section">Data Interchange have selected the below core fonts to be utilised across all mediums.</p>
 
                 <div className="font-container">
                     <span className="co-font huge">Co Headline</span>
-                    <p>Co Headline is the font be used for headers, titles & other text where extra emphasis is required.</p>
-                </div>
-                <div className="font-container">
                     <span className="roboto-font huge">Roboto</span>
-                    <p>Roboto has been selected as our primary font this is to be used as the body font for all applications.</p>
+                    
                 </div>
+               
                 <hr />
                 <div className="type-sizes">
-                    <div className="co-type co-font">
                         <div className="type-block">
-                            <span className="rem-size roboto-font">2.1875rem</span>
                             <span className="text huge">Example Text</span>
-                            <span className="px-size roboto-font">(35px)</span>
                         </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1.875rem</span>
-                            <span className="text large">Example Text</span>
-                            <span className="px-size roboto-font">(30px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1.5625rem</span>
-                            <span className="text big">Example Text</span>
-                            <span className="px-size roboto-font">(25px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1rem</span>
-                            <span className="text">Example Text</span>
-                            <span className="px-size roboto-font">(16px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">0.875rem</span>
-                            <span className="text small">Example Text</span>
-                            <span className="px-size roboto-font">(14px)</span>
-                        </div>
+                        <div className="font-details">
+                        <h4>Properties</h4>
+                        <p>font size: 35px / 2.1875rem</p>
+                        <p>font weight: 35px</p>
+                        <p>Line Height: 35px</p>
+                        <p>Margin Top: 35px</p>
+                        <h4>Usage</h4>
+                        <p>h1 titles</p>
                     </div>
-                    <div className="roboto-type roboto-font">
+                </div>
+                <div className="type-sizes">
                         <div className="type-block">
-                            <span className="rem-size roboto-font">2.1875rem</span>
-                            <span className="text huge">Example Text</span>
-                            <span className="px-size roboto-font">(35px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1.875rem</span>
                             <span className="text large">Example Text</span>
-                            <span className="px-size roboto-font">(30px)</span>
                         </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1.5625rem</span>
-                            <span className="text big">Example Text</span>
-                            <span className="px-size roboto-font">(25px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">1rem</span>
-                            <span className="text">Example Text</span>
-                            <span className="px-size roboto-font">(16px)</span>
-                        </div>
-                        <div className="type-block">
-                            <span className="rem-size roboto-font">0.875rem</span>
-                            <span className="text small">Example Text</span>
-                            <span className="px-size roboto-font">(14px)</span>
-                        </div>
+                        <div className="font-details">
+                        <h4>Properties</h4>
+                        <p>font size: 30px / 1.875rem</p>
+                        <p>font weight: 35px</p>
+                        <p>Line Height: 35px</p>
+                        <p>Margin Top: 35px</p>
+                        <h4>Usage</h4>
+                        <p>h2 titles</p>
                     </div>
+                </div>
+                <div className="type-sizes">
+                        <div className="type-block">
+                            <span className="text big">Example Text</span>
+                        </div>
+                        <div className="font-details">
+                        <h4>Properties</h4>
+                        <p>font size: 25px / 1.5625rem</p>
+                        <p>font weight: 35px</p>
+                        <p>Line Height: 35px</p>
+                        <p>Margin Top: 35px</p>
+                        <h4>Usage</h4>
+                        <p>h3 titles</p>
+                    </div>
+                </div>  
+                <div className="type-sizes">
+                        <div className="type-block">
+                            <span className="text small">Example Text</span>
+                        </div>
+                        <div className="font-details">
+                        <h4>Properties</h4>
+                        <p>font size: 14px / 0.875rem</p>
+                        <p>font weight: 35px</p>
+                        <p>Line Height: 35px</p>
+                        <p>Margin Top: 35px</p>
+                        <h4>Usage</h4>
+                        <p>Standard Text</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
-        </div>
+        
 
     
     );

@@ -17,12 +17,12 @@ const TextField = () => {
             </div>
             <div className="page-content">
             <div className="text-fields">
-                <div className="container-row">
+               
                     <div></div>
-                    <div className="example">
+                    <div className="textfield-example">
                         <img src={InputExample} alt="input example" />
                     </div>
-                </div>
+               
             </div>
             
            

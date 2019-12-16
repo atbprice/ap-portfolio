@@ -12,7 +12,7 @@ const Cards = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Cards</h1>
-                <p>Content is to be displayed in cards, these are containers provided in the UI that groups relevant content together. <br />
+                <p className="article-section">Content is to be displayed in cards, these are containers provided in the UI that groups relevant content together. <br />
                  The usage of a card can vary from a dashboard stat card to full page listing containers.</p>
             </div>
             <div className="page-content">
@@ -37,7 +37,7 @@ const Cards = () => {
                     <h4>Dashboard Card</h4>
                         <div className="example-card dashboard">
                         <div className="card-title">
-                            Documents Exchanged
+                            <h3>Documents Exchanged</h3>
                         </div>
                         <div className="card-icon">
                             <img src={ExchangedIcon} alt="" />

@@ -14,7 +14,7 @@ const Banners = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Banners</h1>
-                <p>A banner is used to provide site wide information to the user. It is docked to the top of the page & provides information that is associated to the whole application e.g. Session Expiry.</p>
+                <p className="article-section">A banner is used to provide site wide information to the user. It is docked to the top of the page & provides information that is associated to the whole application e.g. Session Expiry.</p>
             </div>
             <div className="page-content">
                 <div className="banner">

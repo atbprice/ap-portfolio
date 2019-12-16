@@ -4,8 +4,9 @@ import '../styles/navigation.css';
 
 const DesignNavi = () => {
     return (
-        <div className="ui navi">
-            <div className="ui secondary vertical pointing menu">
+        <div className="navi">
+            <div className="navi-menu">
+            
             <div className="header">DS.Core</div>
             <div className="menu">
                 <NavLink to="/core/colours" className="item">Colours</NavLink>
@@ -24,6 +25,7 @@ const DesignNavi = () => {
                 <NavLink to="/elements/text-field" className="item">Text Field</NavLink>
                 <NavLink to="/elements/notifications" className="item">Notifications</NavLink>
                 <NavLink to="/elements/toggles" className="item">Toggles</NavLink>
+                <NavLink to="/elements/tooltips" className="item">Tooltips</NavLink>
                 
             </div>
 

@@ -1,33 +1,56 @@
-.ui.navi {
-    margin-top: 50px;
+.navi {
+    width: 100%;
 }
 
-.ui.menu {
-    border-radius: 0;
-    border: 0;
+.navi .navi-menu {
+    color:#211554;
+    background-color: #ffffff;
+    float:left;
+    margin-top:0;
+    height:100%;
+    box-shadow: 2px 4px 6px 0px #f0f1f2;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-size:1.25rem;
     line-height:30px;
     color:#3c3c3b;
+    width: 180px;
+    padding: 20px 16px 16px 16px;
+   
 }
 
-
-.top-line {
-    height:100%;
-    background-color:#211554;
-    width:64px;
+.navi .navi-menu .item {
+    width: 100%;
     float: left;
-    padding-top:10px;
+    color: #494949;
+    padding: 7px 5px;
+    font-size: 14px;
 }
 
-.top-line .stripe {
-    width: 24px;
-    height: 5px;
-    display: block;
-    background-color: #51DEB7;
-    margin-left:10px;
-    border-radius: 25px;
+.navi .navi-menu .item:hover {
+   background-color: #f7f7f7;
+   border-radius: 2px;
 }
+
+
+.navi .navi-menu .item.active {
+    
+    border-right: 3px solid #8A63FC;
+    background-color: #f7f7f7;
+}
+
+
+
+.navi .navi-menu .header {
+    padding-left: 10px;
+    font-family: co-headline, sans-serif !important;
+    font-weight: 400;
+    padding:1px 0px !important;
+    color:#211554;
+}
+
+
+
+
 
 
 .ui.vertical.menu {
@@ -45,14 +68,13 @@
    
 }
 
-.ui.vertical.menu .header {
-    padding-left: 10px;
-    font-family: co-headline, sans-serif !important;
-    font-weight: 400;
-    padding:16px 10px !important
+.ui.vertical.menu .menu .item {
+    padding: 10px 10px 8px !important;
 }
 
-.ui.vertical.menu .header :not(:first-child) {
+
+
+.navi .menu .header :not(:first-child) {
     padding-top:20px;
 }
 
@@ -71,11 +93,6 @@
 .ui.secondary.pointing.menu .active.item {
     font-weight: 400;
 }
-
-.ui.vertical.menu .active :hover {
-    color: red;
-}
-
 
 .core-link {
     font-family: co-headline, sans-serif !important;

@@ -21,6 +21,7 @@ import BrandMain from './brand/brand-main';
 import DesignMain from './design/design-main';
 import DevMain from './dev/dev-main';
 import './core.css';
+import ToolTips from './elements/tooltips';
 
 
 
@@ -53,6 +54,7 @@ const App = () => {
                         <Route path="/elements/text-field" exact component={TextField} />
                         <Route path="/elements/notifications" exact component={Notifications} />
                         <Route path="/elements/toggles" exact component={Toggles} />
+                        <Route path="/elements/tooltips" exact component={ToolTips} />
                     </div>
                     
                 </div>

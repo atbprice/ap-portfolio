@@ -13,26 +13,37 @@ h1 {
     font-family: co-headline, sans-serif !important;
     color: #211554;
     font-weight: 400;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
 }
 
 h2 {
-    font-size: 1.5625rem;
+    font-size: 1.375rem;
 }
 
 body{
     font-size:1rem;
    
 }
-h1, h2, h3 {color:#211554;}
+h1, h2, h3 {
+    color:#211554;
+    font-weight: 500 !important;
+}
+
+p {
+    line-height: 24px !important;
+}
+
+.article-section {
+    margin: 20px 0;
+    padding: 0;
+
+}
 
 .base-div {
     width: 100%;
 }
 
-.ui.vertical.menu .menu .item {
-    padding: 16px 10px !important;
-}
+
 
 .content-container{
     min-height: 100vh;

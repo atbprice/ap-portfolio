@@ -1,9 +1,9 @@
 import React from 'react';
 import exampleButton from '../styles/assets/example-button.png';
-import StandardHeightButton from '../styles/assets/standard-height-button.png';
-import SmallHeightButton from '../styles/assets/small-height-button.png'
 import '../styles/element-styles/buttons.css'; 
 import DesignNavi from '../design/design-navi';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faTimes} from "@fortawesome/free-solid-svg-icons";
 
 const Buttons = () => {
     return (
@@ -13,25 +13,23 @@ const Buttons = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Buttons</h1>
-                <p>Buttons are to be used to trigger actions, they can contain, text, icons or both. Usage is dependant on the use case with a limited number of variables. Button widths are variable based on the implementation, a standard
+                <p className="article-section">Buttons are to be used to trigger actions, they can contain, text, icons or both. Usage is dependant on the use case with a limited number of variables. Button widths are variable based on the implementation, a standard
                 width of 250px should solve the majority of design challenges but this is not a rigid property.</p>
             </div>
             {/*Example button */}
         <div className="page-content">
             <div className="example">
-                <img src={exampleButton} alt="Example Button" />
+                <button className="primary-btn btn test">Button</button>
             </div>
              {/*Example Sizes */}
-            <h3>Button Sizes</h3>
-            <p>Buttons are to be consumed within a multitude of different scenario’s. The standard button height is to be used as the default option, this is to be used for all form based implementations. The small button option
-                is to be used when the standard isn’t suitable for the implementation.  </p>
+            <h3>Button Size</h3>
+            <p className="article-section">Button size is dependant on the content within, width is determined by with of the text within including standard padding. </p>
+            <div className="example">
+                <img src={exampleButton} alt="Example Button" />
+            </div>
             <div className="container-row">
-                <div className="btn-container">
-                    <img className="example-btn-standard" src={StandardHeightButton} alt="button" />
-                </div>
-                <div className="btn-container">
-                    <img className="example-btn-small" src={SmallHeightButton} alt="button" />
-                </div>
+                
+               
             
             </div>
              {/*Buttons including CSS */}
@@ -232,7 +230,7 @@ const Buttons = () => {
             <div className="container-row">
                 <div class="btn-container">
                     <span className="btn-title">Base</span>
-                    <button className="delete-icon-btn">X</button>
+                    <button className="delete-icon-btn"><FontAwesomeIcon icon={faTimes} size="1x" /></button>
                     <div className="btn-styles">
                         <b>CSS</b>
                         <p>background-color: #EFDFDE;<br />
@@ -247,7 +245,7 @@ const Buttons = () => {
                 </div>
                 <div class="btn-container">
                     <span className="btn-title">Hover</span>
-                    <button className="delete-icon-btn hover">X</button>
+                    <button className="delete-icon-btn hover"><FontAwesomeIcon icon={faTimes} size="1x" /></button>
                     <div className="btn-styles">
                         <b>CSS</b>
                         <p>background-color: #E89E99;<br />
@@ -256,7 +254,7 @@ const Buttons = () => {
                 </div>
                 <div class="btn-container">
                     <span className="btn-title">Disabled</span>
-                    <button className="delete-icon-btn disabled">X</button>
+                    <button className="delete-icon-btn disabled"><FontAwesomeIcon icon={faTimes} size="1x" /></button>
                     <div className="btn-styles">
                         <b>CSS</b>
                         <p>opacity: 0.40;<br />

@@ -1,6 +1,7 @@
 .example-dropdown {
     width: 325px;
     margin: 40px auto;
+    height: 150px;
 
 }
 
@@ -30,7 +31,7 @@ select {
 
 .drop-row {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     padding-bottom: 40px;
     
 }

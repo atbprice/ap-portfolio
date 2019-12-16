@@ -1,5 +1,8 @@
 .font-container {
-    padding-bottom: 35px;
+   
+    display:grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
 }
 
 
@@ -18,17 +21,16 @@
 }
 
 .co-type, .roboto-type {
-    width: 47%;
-    float: left;
-    background-color: #F4F5F7;
+
+   
     border-radius: 8px;
-    margin-right: 3%;
+    margin: 3%;
     padding: 20px;
 }
 
 
 .type-block {
-    padding-bottom: 35px;
+    padding: 0px 30px 0px 30px;
 }
 
 .type-block .rem-size {
@@ -57,4 +59,20 @@
 
 .type-block .small {
     font-size: 0.875rem;
+}
+
+.type-sizes {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+}
+
+.font-details {
+
+}
+
+.font-details p {
+ line-height: 1rem !important;
 }

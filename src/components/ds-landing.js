@@ -1,8 +1,9 @@
 import React from 'react';
 import './styles/dsLanding.css'
 import ReactImage from './styles/assets/react-icon.png';
-import Hero from './styles/assets/hero.png';
+//import Hero from './styles/assets/hero.png';
 import DIlogo from './styles/assets/logo.png';
+import DesignHero from './styles/assets/coder.png';
 
 const dsLanding = () => {
     return(
@@ -11,23 +12,17 @@ const dsLanding = () => {
                 <div className="title-text">
                     <h1>Design System</h1>
                     <p>Built to instill the core values of our business</p>
-                        <ul>
-                            <li>Bold</li>
-                            <li>Confident</li>
-                            <li>Interesting</li>
-                            <li>Pioneering</li>
-                            <li>Distinctive</li>
-                        </ul>
-                    
-
-                
                 </div>
                 <div className="hero-image">
-                    <img src={Hero} alt="hero" />
-
+                    <img src={DesignHero} alt="hero" />
                 </div>
-            
-            
+            </div>
+            <div className="brand-values">
+                <span>Bold</span>
+                <span>Confident</span>
+                <span>Interesting</span>
+                <span>Pioneering</span>
+                <span>Distinctive</span>
             </div>
             <div className="detail-container">
                 <div className="company-react">
