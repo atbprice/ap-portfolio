@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/element-styles/banners.css';
+import '../../styles/design/element-styles/banners.css';
 import {faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import BannerScreen from '../styles/assets/banner-example.png';
-import DesignNavi from '../design/design-navi';
+import BannerScreen from '../../styles/assets/banner-example.png';
+import DesignNavi from '../design-navi';
 
 const Banners = () => {
     return (

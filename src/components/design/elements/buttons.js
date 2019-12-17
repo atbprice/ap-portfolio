@@ -1,7 +1,7 @@
 import React from 'react';
-import exampleButton from '../styles/assets/example-button.png';
-import '../styles/element-styles/buttons.css'; 
-import DesignNavi from '../design/design-navi';
+import exampleButton from '../../styles/assets/example-button.png';
+import '../../styles/design/element-styles/buttons.css'; 
+import DesignNavi from '../design-navi';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
 
@@ -35,7 +35,7 @@ const Buttons = () => {
              {/*Buttons including CSS */}
             <h3>Primary Button</h3>
             <div className="container-row"> 
-                <div class="btn-container">
+                <div className="btn-container">
                     <span className="btn-title">Base</span>
                     <button className="primary-btn btn">Button</button>
                     <div className="btn-styles">

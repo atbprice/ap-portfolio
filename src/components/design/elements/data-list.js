@@ -1,6 +1,6 @@
 import React from 'react';
-import DesignNavi from '../design/design-navi';
-import '../styles/element-styles/data-list.css';
+import DesignNavi from '../design-navi';
+import '../../styles/design/element-styles/data-list.css';
 
 const DataList = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import DesignNavi from '../design/design-navi';
-import ToolTip from '../styles/assets/tooltip.png';
-import '../styles/element-styles/tooltips.css';
+import DesignNavi from '../design-navi';
+import ToolTip from '../../styles/assets/tooltip.png';
+import '../../styles/design/element-styles/tooltips.css';
 
 const ToolTips = () => {
     return (

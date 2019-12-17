@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/core-styles/colours.css';
+import '../../styles/design/core-styles/colours.css';
 import ColourContainer from './core-components/colour-container';
-import DesignNavi from '../design/design-navi';
+import DesignNavi from '../design-navi';
 
 
 const Colours = () => {

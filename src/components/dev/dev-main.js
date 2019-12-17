@@ -1,10 +1,12 @@
 import React from 'react';
-import '../styles/dev-main.css';
+import '../styles/dev/dev-main.css';
+import ComponentNavi from './dev-navi';
 
 const DevMain = () => {
     return (
+
         <div className="grid-display">
-        <div></div>
+        <ComponentNavi />
             <div className="primary-container design-guidelines">
                 <div className="page-heading">
                     <h1>Component Library</h1>

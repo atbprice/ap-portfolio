@@ -4,7 +4,7 @@
     grid-template-rows: auto;
     justify-items: stretch;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     background-color: #ffffff;
     
 }
@@ -49,13 +49,13 @@
 .detail-container {
     display: grid;
     background-color: #F7F7F7;
-    min-height: 400px;
+   
 }
 
 .company-react {
-    height: 100px;
+    height: 160px;
     width: 40%;
-    margin: 30px auto;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 40% 10% 40%;
     grid-template-rows: auto;
@@ -75,7 +75,11 @@
 .brand-values span {
     font-family: co-headline, sans-serif !important;
     color: #211554;
-    font-size:1.75rem;
+    font-size:2.2rem;
+}
+
+.brand-values span:nth-child(even) {
+    color: #51DEB7;
 }
 
 
@@ -92,4 +96,18 @@
     line-height: 137px;
     font-size: 30px;
 
+}
+
+.react-questions {
+    padding: 2% 6%;
+}
+
+.react-context {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.react-context .include-tag {
+    margin: auto;
+    width: 250px;
+    text-align: center;
 }

@@ -1,19 +1,19 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
-import Colours from './core/colours';
-import Cards from './core/cards';
-import Typography from './core/typography';
-import Iconography from './core/iconography';
+import Colours from './design/core/colours';
+import Cards from './design/core/cards';
+import Typography from './design/core/typography';
+import Iconography from './design/core/iconography';
 import dsLanding from './ds-landing';
-import Avatars from './elements/avatars';
-import Banners from './elements/banners';
-import Breadcrumbs from './elements/breadcrumbs';
-import Buttons from './elements/buttons';
-import DataList from './elements/data-list';
-import Dropdowns from './elements/dropdowns';
-import TextField from './elements/text-field';
-import Notifications from './elements/notifications';
-import Toggles from './elements/toggles';
+import Avatars from './design/elements/avatars';
+import Banners from './design/elements/banners';
+import Breadcrumbs from './design/elements/breadcrumbs';
+import Buttons from './design/elements/buttons';
+import DataList from './design/elements/data-list';
+import Dropdowns from './design/elements/dropdowns';
+import TextField from './design/elements/text-field';
+import Notifications from './design/elements/notifications';
+import Toggles from './design/elements/toggles';
 import Header from './header';
 
 
@@ -21,7 +21,8 @@ import BrandMain from './brand/brand-main';
 import DesignMain from './design/design-main';
 import DevMain from './dev/dev-main';
 import './core.css';
-import ToolTips from './elements/tooltips';
+import ToolTips from './design/elements/tooltips';
+import ButtonComponent from './dev/button-component';
 
 
 
@@ -55,6 +56,8 @@ const App = () => {
                         <Route path="/elements/notifications" exact component={Notifications} />
                         <Route path="/elements/toggles" exact component={Toggles} />
                         <Route path="/elements/tooltips" exact component={ToolTips} />
+
+                        <Route path="/dev/button-component" exact component={ButtonComponent} />
                     </div>
                     
                 </div>

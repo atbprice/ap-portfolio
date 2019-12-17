@@ -1,6 +1,6 @@
 import React from 'react';
-import DesignNavi from '../design/design-navi';
-import '../styles/element-styles/toggles.css'
+import DesignNavi from '../design-navi';
+import '../../styles/design/element-styles/toggles.css'
 
 const Toggles = () => {
     return (
@@ -16,7 +16,7 @@ const Toggles = () => {
                 <div className="page-content ">
                     <div className="toggle-example">
                         <input type="checkbox" id="id-name--1" name="set-name" class="switch-input" />
-                        <label for="id-name--1" class="switch-label">Switch <span class="toggle--on">On</span><span class="toggle--off">Off</span></label>
+                        <label class="switch-label">Switch <span class="toggle--on">On</span><span class="toggle--off">Off</span></label>
                     
                     </div>
                 </div>

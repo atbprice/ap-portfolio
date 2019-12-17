@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/element-styles/dropdown.css';
-import ExampleDropdown from '../styles/assets/dropdown-example.png';
-import ActiveDropdown from '../styles/assets/active-dropdown.png';
-import RequiredDropdown from '../styles/assets/required-dropdown.png';
+import '../../styles/design/element-styles/dropdown.css';
+import ExampleDropdown from '../../styles/assets/dropdown-example.png';
+import ActiveDropdown from '../../styles/assets/active-dropdown.png';
+import RequiredDropdown from '../../styles/assets/required-dropdown.png';
 import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import DesignNavi from '../design/design-navi';
+import DesignNavi from '../design-navi';
 
 const Dropdowns = () => {
     return (

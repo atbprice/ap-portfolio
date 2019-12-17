@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/element-styles/text-fields.css';
-import InputExample from '../styles/assets/input-example.png';
-import DesignNavi from '../design/design-navi';
+import '../../styles/design/element-styles/text-fields.css';
+import InputExample from '../../styles/assets/input-example.png';
+import DesignNavi from '../design-navi';
 
 
 const TextField = () => {

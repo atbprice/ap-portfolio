@@ -1,8 +1,8 @@
 import React from 'react';
-import AvatarExample from '../styles/assets/avatar-example.png';
-import NoAvatar from '../styles/assets/no-avatar.png';
-import '../styles/element-styles/avatar.css';
-import DesignNavi from '../design/design-navi';
+import AvatarExample from '../../styles/assets/avatar-example.png';
+import NoAvatar from '../../styles/assets/no-avatar.png';
+import '../../styles/design/element-styles/avatar.css';
+import DesignNavi from '../design-navi';
 
 const Avatars = () => {
     return (

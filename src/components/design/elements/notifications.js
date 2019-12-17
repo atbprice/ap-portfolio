@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/element-styles/notifications.css';
+import '../../styles/design/element-styles/notifications.css';
 import {faTimes} from "@fortawesome/free-solid-svg-icons";
 import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +7,7 @@ import {faExclamationTriangle} from "@fortawesome/free-solid-svg-icons";
 import {faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import DesignNavi from '../design/design-navi';
+import DesignNavi from '../design-navi';
 
 const Notifications = () => {
     return(

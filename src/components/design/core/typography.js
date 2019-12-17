@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/core-styles/typography.css';
-import DesignNavi from '../design/design-navi';
+import '../../styles/design/core-styles/typography.css';
+import DesignNavi from '../design-navi';
 
 
 const Typography = () => {

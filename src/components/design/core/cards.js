@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/core-styles/cards.css';
-import DesignNavi from '../design/design-navi';
-import ExchangedIcon from '../styles/assets/exchanged-icon.png';
+import '../../styles/design/core-styles/cards.css';
+import DesignNavi from '../design-navi';
+import ExchangedIcon from '../../styles/assets/exchanged-icon.png';
 
 
 const Cards = () => {

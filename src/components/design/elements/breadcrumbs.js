@@ -1,6 +1,6 @@
 import React from 'react';
-import DesignNavi from '../design/design-navi';
-import '../styles/element-styles/breadcrumbs.css';
+import DesignNavi from '../design-navi';
+import '../../styles/design/element-styles/breadcrumbs.css';
 
 const Breadcrumbs = () => {
     return (
