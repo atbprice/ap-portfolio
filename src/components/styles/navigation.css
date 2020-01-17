@@ -6,15 +6,17 @@
     color:#211554;
     background-color: #ffffff;
     float:left;
-    margin-top:0;
-    height:100%;
+    margin-top:76px;
+    height:92vh;
     box-shadow: 2px 4px 6px 0px #f0f1f2;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-size:1.25rem;
     line-height:30px;
     color:#3c3c3b;
     width: 180px;
-    padding: 20px 16px 16px 16px;
+    padding: 20px 16px 40px 16px;
+    overflow-y: scroll;
+    position: fixed;
    
 }
 
@@ -126,4 +128,5 @@ a.core-link:hover {
     background-position: center;
     margin-bottom: 40px;
 }
+
 

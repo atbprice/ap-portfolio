@@ -6,33 +6,52 @@ const DesignNavi = () => {
     return (
         <div className="navi">
             <div className="navi-menu">
-            
-            <div className="header">DS.Core</div>
-            <div className="menu">
-                <NavLink to="/core/colours" className="item">Colours</NavLink>
-                <NavLink to="/core/typeface" className="item">Typography</NavLink>
-                <NavLink to="/core/icons" className="item">Icons</NavLink>
-                <NavLink to="/core/cards" className="item">Cards</NavLink>
-            </div>
-            <div className="header">DS.Components</div>
-            <div className="menu">
-                <NavLink to="/elements/avatars" className="item">Avatars</NavLink>
-                <NavLink to="/elements/banners" className="item">Banners</NavLink>
-                <NavLink to="/elements/breadcrumbs" className="item">Breadcrumbs</NavLink>
-                <NavLink to="/elements/buttons" className="item">Buttons</NavLink>
-                <NavLink to="/elements/data-list" className="item">Data List</NavLink>
-                <NavLink to="/elements/dropdowns" className="item">Dropdowns</NavLink>
-                <NavLink to="/elements/text-field" className="item">Text Field</NavLink>
-                <NavLink to="/elements/notifications" className="item">Notifications</NavLink>
-                <NavLink to="/elements/toggles" className="item">Toggles</NavLink>
-                <NavLink to="/elements/tooltips" className="item">Tooltips</NavLink>
+                <div>
+                    <div className="header">Principles</div>
+                <div className="menu">
+                    <NavLink to="/core/accessibility" className="item">Accessibility</NavLink>
+                    <NavLink to="/core/usability" className="item">Usability</NavLink>
+                    <NavLink to="/core/responsive" className="item">Responsive</NavLink>
+                </div>
+                </div>
                 
+                <div className="header">Visual</div>
+                <div className="menu">
+                    <NavLink to="/core/colours" className="item">Colour</NavLink>
+                    <NavLink to="/core/typeface" className="item">Font</NavLink>
+                    <NavLink to="/core/icons" className="item">Icons</NavLink>
+                </div>
+                <div className="header">Patterns</div>
+                <div className="menu">
+                    <NavLink to="/core/cards" className="item">Card</NavLink>
+                    <NavLink to="/core/panels" className="item">Panel</NavLink>
+                    <NavLink to="" className="item">Hierarchy</NavLink>
+                    <NavLink to="/patterns/data-entry" className="item">Data Entry</NavLink>
+                    <NavLink to="/patterns/displaying-data" className="item">Displaying Data</NavLink>
+                    <NavLink to="/patterns/empty-state" className="item">Empty State</NavLink>
+                    <NavLink to="/patterns/loading" className="item">Loading</NavLink>
+                    
+                    <NavLink to="/core/forms" className="item">Forms*</NavLink>
+                </div>
+                <div className="header">Components</div>
+                <div className="menu">
+                    <NavLink to="/components/avatars" className="item">Avatar</NavLink>
+                    <NavLink to="/components/banners" className="item">Banner</NavLink>
+                    <NavLink to="/components/breadcrumbs" className="item">Breadcrumb</NavLink>
+                    <NavLink to="/components/buttons" className="item">Button</NavLink>
+                    <NavLink to="/components/card-list" className="item">Card List</NavLink>
+                    <NavLink to="/components/checkbox" className="item">Checkbox</NavLink>
+                    <NavLink to="/components/data-list" className="item">Data Grid</NavLink>
+                    <NavLink to="/components/radio" className="item">Radio Button</NavLink>
+                    <NavLink to="/components/dropdowns" className="item">Select</NavLink>
+                    <NavLink to="/components/text-field" className="item">Text Field</NavLink>
+                    <NavLink to="/components/notifications" className="item">Toast</NavLink>
+                    <NavLink to="/components/toggles" className="item">Toggles</NavLink>
+                    <NavLink to="/components/tooltips" className="item">Tooltips</NavLink>
+                    
+                </div>
             </div>
-
-            </div>
-           
         </div>
-
     )
 }
 

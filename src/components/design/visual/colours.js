@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/design/core-styles/colours.css';
-import ColourContainer from './core-components/colour-container';
+import ColourContainer from './colour-container';
 import DesignNavi from '../design-navi';
 
 

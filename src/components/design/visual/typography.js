@@ -11,10 +11,13 @@ const Typography = () => {
         <div className="primary-container">
             <div className="page-heading">
                 <h1>Typography</h1>
-                <p className="article-section">Text is the primary method of communication across all outputs. We are able to provide a typographic scale that ensures consistency across our product suite.</p>
+                <p className="article-section">
+                    Text is the primary method of communication across all outputs. We provide a typographic scale that
+                     ensures consistency across our product suite.
+                    </p>
             </div>
             <div className="page-content">
-            <h2>Core Fonts</h2>
+            <h2>Fonts</h2>
                 <p className="article-section">Data Interchange have selected the below core fonts to be utilised across all mediums.</p>
 
                 <div className="font-container">
