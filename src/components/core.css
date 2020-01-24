@@ -154,3 +154,27 @@ p {
     margin: auto;
     display: block;
 }
+
+.fifty-split {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-template-rows: auto;
+    justify-items: stretch;
+}
+
+.info-section {
+    padding: 30px 0px;
+}
+.info-section p {
+    padding: 0px 30px 0px 0px
+}
+
+.info-section img {
+    padding-top: 30px;
+}
+
+.primary-img {
+    margin:auto;
+    display: block;
+    padding-bottom: 40px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import DesignNavi from '../design-navi';
+import DesignNavi from '../navi/design-navi';
 
 const RadioButton = () => {
 

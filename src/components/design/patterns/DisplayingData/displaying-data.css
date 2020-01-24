@@ -1,0 +1,9 @@
+.data-table {
+    width: 95%;
+}
+
+.tile {
+    display: block;
+    margin: auto;
+    padding: 25px 0 25px 0;
+}

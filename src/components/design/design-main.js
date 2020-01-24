@@ -1,5 +1,5 @@
 import React from 'react';
-import DesignNavi from './design-navi';
+import DesignNavi from './navi/design-navi';
 
 import Prototype from '../styles/assets/prototype.png';
 
