@@ -1,13 +1,13 @@
 import React from 'react';
-import DesignNavi from './navi/design-navi';
+
 
 import Prototype from '../styles/assets/prototype.png';
 
-const DesignMain = () => {
+const ProcessMain = () => {
     return (
         
-        <div className="grid-display">
-            <DesignNavi />
+        <div className="">
+           
             <div className="primary-container design-guidelines">
                 <div className="page-heading">
                     <h1>Design Guidelines</h1>
@@ -32,4 +32,4 @@ const DesignMain = () => {
     )
 }
 
-export default DesignMain;
+export default ProcessMain;

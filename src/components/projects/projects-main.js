@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/dev/dev-main.css';
-import ComponentNavi from './dev-navi';
+import '../styles/projects/projects-main.css';
 
-const DevMain = () => {
+const ProjectsMain = () => {
     return (
 
-        <div className="grid-display">
-        <ComponentNavi />
+        <div className="">
+       
             <div className="primary-container design-guidelines">
                 <div className="page-heading">
                     <h1>Component Library</h1>
@@ -47,4 +46,4 @@ const DevMain = () => {
     )
 }
 
-export default DevMain;
+export default ProjectsMain;

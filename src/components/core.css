@@ -1,6 +1,6 @@
 html, body {
-   background: #ffffff;
-    height: 100%;
+   background: #CB9846 !important;
+    height: 100vh;
 }
 
 body, h2, h3, h4, h5  {
@@ -39,22 +39,18 @@ p {
     line-height: 24px !important;
 }
 
-.article-section {
-    margin: 20px 0;
-    padding: 0;
 
-}
-
-.base-div {
-    width: 100%;
-}
-
-
-
-.content-container{
-    min-height: 100vh;
+.content-container {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 5% auto;
+    display: block;
+    border-radius: 150px 1px 150px 0px;
+    min-height: 80vh;
+    ;
     
 }
+
 
 .center .header {height:60px;}
 .main {flex: 1 1 auto;}
@@ -78,46 +74,27 @@ p {
     margin: auto;
 }
 
-.container-row{
-    padding: 10px 0px 10px 0px;
-    display:grid;
-    padding-bottom: 50px;
-    grid-template-columns: 33% 33% 33%;
-}
+
 
 .banner-header {
     height: 75px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px #f0f1f2;
-    position: fixed;
-    width: 100%;
+
+    width: 90%;
     z-index: 999;
 
 }
 
-.corp-logo{
-    height: 60px;
-    width: 180px;
-    padding: 12px 0px 0px 10%;
-    
-}
-
-.header-logo {
-    height: 57px;
-    display: block;
-}
-
-
-
 .banner-header .top-navi {
     float: right;
-    margin: -27px 5% 0px 0px
+    padding-top: 25px;
+    padding-right: 25px;
+   
 }
 
 .banner-header .top-navi .item {
     padding: 10px 25px 10px 25px;
     color: #211554;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
 }
 
 .banner-header .top-navi .item:hover {
@@ -136,31 +113,8 @@ p {
     
 }
 
-.disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
-    text-decoration: none;
-    pointer-events: none;
-}
 
-.main-section {
-    height: 100vh;
-    display: grid;
-}
-
-
-.device-image {
-    width: 65%;
-    margin: auto;
-    display: block;
-}
-
-.fifty-split {
-    display: grid;
-    grid-template-columns: 60% 35%;
-    grid-template-rows: auto;
-    justify-items: stretch;
-}
+    
 
 .info-section {
     padding: 30px 0px;
@@ -173,8 +127,12 @@ p {
     padding-top: 30px;
 }
 
-.primary-img {
-    margin:auto;
-    display: block;
-    padding-bottom: 40px;
+
+
+.image-container {
+    height: 250px;
+    width: 250px;
+    background-color: #3c3c3b;
+    margin-left: 10%;
+    float: left;
 }
