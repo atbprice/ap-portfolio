@@ -18,13 +18,8 @@ const App = () => {
         <div className="">
             <BrowserRouter>
                 <div className="content-container">
-                    <Header />
-                       
-                    <div className="main-section">
-                        <Route path="/" exact component={home} />
-                        <Route path="/process/process-main" exact component={ProcessMain} />
-                        <Route path="/projects/projects-main" exact component={ProjectsMain} />
-                    </div>    
+                    <Route path="/" exact component={home} />
+ 
                 </div>
             </BrowserRouter>
         </div>
