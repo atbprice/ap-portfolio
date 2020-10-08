@@ -51,9 +51,9 @@ const home = () => {
             
             
            
-            <div className="overview-container">
+            <div className="overview-container intro yellow">
                 <div className="title-box">
-                    <span className="title-line"></span>
+                    
                     <h2>Overview</h2>
                 </div>
                 <p>
@@ -63,6 +63,14 @@ const home = () => {
                 speed where required. My teams have successfully adopted this process with my focus being on visibility of progress & clear achievable milestones.
                 </p>
                 
+            </div>
+
+            <div className="overview-container">
+                <div className="process-box">
+                    <h2>My Process</h2>
+                    <p>I approach all projects following a defined process thats draws close comparison with Design Thinking. I have embedded this process into the teams i have developed & aligned it closely with the agile way of working. </p>
+                    
+                </div>
             </div>
     
          </div>
