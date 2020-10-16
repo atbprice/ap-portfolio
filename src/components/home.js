@@ -1,6 +1,11 @@
 import React from 'react';
 import './styles/home.css'
 import Profile from './styles/assets/profile-img.png';
+import Project from './styles/assets/project.png';
+import Process from './styles/assets/process-diagram.png';
+import ColourBar from './styles/assets/colorbar.png';
+
+
 import {NavLink} from 'react-router-dom';
 
 
@@ -11,8 +16,8 @@ const home = () => {
             <div className="heading-container">
                 
                 <div className="title-container">
-                    <h1>Andy Price</h1>
-                    <h3>Product Design Leader</h3>
+                    <h1 className="banner-title">Andrew Price</h1>
+                    <h3 className="banner-sub">Product Design Leader</h3>
                     
                     <NavLink to="/projects" className="item">
                         <div className="primary-button">Projects</div>
@@ -22,19 +27,12 @@ const home = () => {
                 <div className="image-container">
                     <img className="profile-image" src={Profile} alt="hero" />
                 </div>
-
-
-                <div className="intro-container">
-                   
-                </div>
-                
             </div>
            
-           
-            <div className="overview-container intro brown white-text">
+            <div className="overview-container intro dark">
                 <div className="title-box">
                     
-                    <h2>About Me</h2>
+                    <h2 className="banner-sub">About Me</h2>
                 </div>
                 <p>
                     Hi, I am a product design leader and tech enthusiast based in rural Nottinghamshire.
@@ -47,16 +45,37 @@ const home = () => {
                     <p>
                     My passion for UX has allowed me tackle a wide range of design projects and nurture design teams, whilst embedding alignment with Product & Development functions. 
                     </p>
+                    <span classname="color-bar">
+                        <img className="color-bar" src={ColourBar} alt="hero" />
+                    </span>
                 
             </div>
 
             <div className="overview-container">
-                <div className="process-box">
-                    <h2>My Process</h2>
-                    <p>I approach all projects following a defined process thats draws close comparison with Design Thinking. I have embedded this process into the teams i have developed & aligned it closely with the agile way of working. </p>
-                    
+                <h2>Latest Project</h2>
+
+                <div className="project-card dark">
+                    <h3 className="banner-sub">Project Uno</h3>
+                    <p>
+                    £8 million business migration project, delivering a web focused experience for automotive supplier integration. 
+                    </p>
+                    <span className="project-type yellow">B2B Enterprise Platform</span>
+                    <span className="project-image">
+                        <img src={Project} alt="Project Image" />
+                    </span>
                 </div>
             </div>
+            <div className="overview-container">
+                <h2>My Process</h2>
+                <span className="process-image">
+                        <img src={Process} alt="Project Image" />
+                </span>
+                <div className="process-text">
+                    <p>process supporting text</p>
+                </div>
+
+            </div>
+            
     
          </div>
 

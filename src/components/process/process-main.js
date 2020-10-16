@@ -4,7 +4,7 @@ import React from 'react';
 const ProcessMain = () => {
     return (
         
-        <div className="master-container">
+        <div className="home-content">
            
             <div className="primary-container design-guidelines">
                 <div className="page-heading">

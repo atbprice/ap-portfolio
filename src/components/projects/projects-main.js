@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 const ProjectsMain = () => {
     return (
 
-        <div className="master-container">
+        <div className="c">
             <div className="page-heading">
                     <h1>My Projects</h1>
                     <p className="article-section">
