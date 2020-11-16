@@ -1,57 +1,32 @@
 import React from 'react';
 import './styles/home.css'
-
-import ColourBar from './styles/assets/colorbar.png';
 import Header from './header';
-import hero from './styles/assets/uno-platform.png';
-
-
-
+import hero from './styles/assets/uno-platform@2x.png';
+import filedoc from './styles/assets/FileDoc/file-doc@2x.png'
 import {NavLink} from 'react-router-dom';
 
 
 
 const home = () => {
     return(
-        <div className="home-content">
+        <div className="master">
+            <div className="home-content">
+
+           
              <Header />
             <div className="heading-container">
                 
                 <div className="title-container">
+                    <span className="welcome">Welcome</span>
                     <h1 className="banner-title">Andrew Price</h1>
                     <h3 className="banner-sub">Product Design Leader</h3>
                     
                 </div>
             </div>
            
-            <div className="overview-container intro dark">
-                <div className="text-padding">
-                <div className="title-box">
-                    
-                    <h2 className="banner-sub">About Me</h2>
-                </div>
-                <p>
-                    Hi, I am a product design leader and tech enthusiast based in rural Nottinghamshire.
-                    </p>
-                    <p>
-                    I began my journey as a developer, before migrating to user experience. I wanted to understand, 
-                    how the products I was developing were being used, and who was using them. That curiosity led me to the field of UX, and has stayed with me ever since.
-                    </p>
-                    
-                    <p>
-                    My passion for UX has allowed me tackle a wide range of design projects and nurture design teams, whilst embedding alignment with Product & Development functions. 
-                    </p>
-
-                </div>
-               
-                    <span classname="color-bar">
-                        <img className="color-bar" src={ColourBar} alt="hero" />
-                    </span>
-                
-            </div>
+           
 
             <div className="overview-container latest">
-                <h2>Latest Project</h2>
 
                 <div className="proj">
                     <div className="proj-left">
@@ -63,16 +38,49 @@ const home = () => {
                             into an established technical user base focused.</p>
                         </div>
                         <div className="proj-link">
-                        <NavLink to="/projects/uno" className="">View Project </NavLink>
+                        <NavLink to="/projects/uno" className="">View Project &gt;</NavLink>
                         </div>
                     </div>
                     <div className="proj-right">
-                        <img className="profile-image" src={hero} alt="hero" />
+                        <div className="colors">
+                            <span className="colorbox b1 l"></span>
+                            <span className="colorbox b1 r"></span>
+                            <span className="colorbox b1 b"></span>
+                        </div>
+                       
+                        <img className="project-image" src={hero} alt="hero" />
+                    </div>
+                </div>
+                <div className="proj">
+                    <div className="proj-left">
+                    <div className="colors">
+                            <span className="colorbox b2 l"></span>
+                            <span className="colorbox b2 r"></span>
+                            <span className="colorbox b2 b"></span>
+                        </div>
+                       
+                        <img className="project-image" src={filedoc} alt="hero" />
+                    </div>
+                    <div className="proj-right">
+                        <div className="proj-title">
+                            <h3>Data Visibility</h3>
+                        </div>
+                        <div className="proj-text">
+                        <p>v1.0 of the Uno Platform project, a data visibility application providing user overview of all transactional data with trading partners.
+                        </p>
+                           
+                        </div>
+                        <div className="proj-link">
+                        <NavLink to="/projects/fileanddocument" className="">View Project >></NavLink>
+                        </div>
+
+
+                       
                     </div>
                 </div>
             </div>
             
-            
+            </div>
     
          </div>
 
