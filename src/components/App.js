@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './core.css';
+import './responsive.css'
 import home from './home';
 import me from './aboutme.js';
 
@@ -17,7 +18,7 @@ import ProjectsEYC from './projects/projects-eyc';
 const App = () => {
     return(
         <div className="core-style">
-            <BrowserRouter>
+            <BrowserRouter basename={window.location.pathname || ''}>
            
                 <div className="content-container">
                     <Route path="/" exact component={home} />

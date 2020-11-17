@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import Header from '../header';
 import DashboardMain from '../styles/assets/uno-platform@2x.png';
 import btnLight from '../styles/assets/btn-light.png';
@@ -21,7 +20,7 @@ const ProjectsUno = () => {
                 <Header />
 
                 <div className="project-title">
-                    <h1>Uno Platform</h1>
+                    <h1>Integration Platform</h1>
                     <p> A self service supply chain integration platform, delivering a cloud based experience, 
                         into an established technical user base focused.</p>
                 </div>  
@@ -72,21 +71,20 @@ const ProjectsUno = () => {
                         its own navigation structure.
                     </p>
                     <div className="main-image">
-                        <NavLink to={arch1} target="_blank" className="">
-                            <img src={arch1} alt="Forest" />
-                        </NavLink>
+                        <a href={arch1} target="_blank" rel="noreferrer noopener" className="">
+                            <img src={arch1} alt="Design Sprint" />
+                        </a>
                     </div> 
                     <div className="two-image">
-                        <NavLink to={arch2} target="_blank" className="">
-                                <img src={arch2} alt="Forest" />
-                        </NavLink>
-                        
+                        <a href={arch2} target="_blank" rel="noreferrer noopener" className="">
+                            <img src={arch2} alt="Design Sprint" />
+                        </a>
+                       
                     </div> 
                     <div className="two-image">
-                        <NavLink to={arch3} target="_blank" className="">
-                                <img src={arch3} alt="Forest" />
-                        </NavLink>
-                        
+                        <a href={arch3} target="_blank" rel="noreferrer noopener" className="">
+                            <img src={arch3} alt="Design Sprint" />
+                        </a>    
                     </div> 
                    
                 </div>
@@ -96,36 +94,29 @@ const ProjectsUno = () => {
                     </p>
                     <div className="template-container">
                         <div className="nav">
-                            <NavLink to={templateOne} target="_blank" className="">
-                                    <img src={templateOne} alt="Forest" />
-                            </NavLink>
-                            
+                            <a href={templateOne} target="_blank" rel="noreferrer noopener" className="">
+                                <img src={templateOne} alt="Design Sprint" />
+                            </a> 
                         </div> 
                         <div className="template">
-                            <NavLink to={templateTwo} target="_blank" className="">
-                                    <img src={templateTwo} alt="Forest" />
-                            </NavLink>                         
+                            <a href={templateTwo} target="_blank" rel="noreferrer noopener" className="">
+                                <img src={templateTwo} alt="Design Sprint" />
+                            </a>                         
                         </div>
                     </div>
-
                     <div className="template-container">
                         <div className="nav">
-                            <NavLink to={templateOneDark} target="_blank" className="">
-                                    <img src={templateOneDark} alt="Forest" />
-                            </NavLink>
-                            
+                            <a href={templateOneDark} target="_blank" rel="noreferrer noopener" className="">
+                                <img src={templateOneDark} alt="Design Sprint" />
+                            </a>  
                         </div> 
                         <div className="template">
-                            <NavLink to={templateTwoDark} target="_blank" className="">
-                                    <img src={templateTwoDark} alt="Forest" />
-                            </NavLink>                         
+                            <a href={templateTwoDark} target="_blank" rel="noreferrer noopener" className="">
+                                <img src={templateTwoDark} alt="Design Sprint" />
+                            </a>                      
                         </div>
                     </div>
-                   
-                     
                 </div>
-
-
             </div>
         </div>
     )

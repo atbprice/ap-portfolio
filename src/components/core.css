@@ -25,6 +25,8 @@ html, body {
     margin: 2%;
     background-color: #1E6C9F;
     float: left;
+    min-height: 100vh;
+
    
 }
 

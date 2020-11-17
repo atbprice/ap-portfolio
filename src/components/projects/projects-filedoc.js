@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../header';
-import {NavLink} from 'react-router-dom';
 import DashboardMain from '../styles/assets/FileDoc/Dashboard.png';
 import DesignSprint from '../styles/assets/FileDoc/designsprint.png';
 import Powerpoint from '../styles/assets/FileDoc/pptfile.png';
@@ -151,18 +150,19 @@ const ProjectsFileandDocument = () => {
                 </p>
                
                 <div className="image-master">
-                    <NavLink to={lowFidLanding} target="_blank" className="image-1">
+                    <a href={lowFidLanding} target="_blank" rel="noreferrer noopener" className="image-1">
                         <img src={lowFidLanding} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={lowFidFileDetail} target="_blank" className="image-2">
+                    </a>
+                    <a href={lowFidFileDetail} target="_blank" rel="noreferrer noopener" className="image-2">
                         <img src={lowFidFileDetail} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={lowFidFileList} target="_blank" className="image-3">
+                    </a>
+                    <a href={lowFidFileList} target="_blank" rel="noreferrer noopener" className="image-3">
                         <img src={lowFidFileList} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={lowfidTheme} target="_blank" className="image-4">
+                    </a>
+                    <a href={lowfidTheme} target="_blank" rel="noreferrer noopener" className="image-4">
                         <img src={lowfidTheme} alt="Design Sprint" />
-                    </NavLink>
+                    </a>
+                   
                 </div>
 
             </div>
@@ -175,30 +175,33 @@ const ProjectsFileandDocument = () => {
                 </p>
                
                 <div className="image-master">
-                    <NavLink to={finDashboard} target="_blank" className="image-1">
+                    <a href={finDashboard} target="_blank" rel="noreferrer noopener" className="image-1">
                         <img src={finDashboard} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={finFileList} target="_blank" className="image-2">
+                    </a>
+                    <a href={finFileList} target="_blank" rel="noreferrer noopener" className="image-2">
                         <img src={finFileList} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={finFileList2} target="_blank" className="image-3">
+                    </a>
+                    <a href={finFileList2} target="_blank" rel="noreferrer noopener" className="image-3">
                         <img src={finFileList2} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={finTheme} target="_blank" className="image-4">
+                    </a>
+                    <a href={finTheme} target="_blank" rel="noreferrer noopener" className="image-4">
                         <img src={finTheme} alt="Design Sprint" />
-                    </NavLink>
+                    </a>
+                    
+                    test
+                   
                 </div>
 
                 <div className="mobile-master">
-                    <NavLink to={mobDashboard} target="_blank" className="image-1">
+                    <a href={mobDashboard} target="_blank" rel="noreferrer noopener" className="image-1">
                         <img src={mobDashboard} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={mobLising} target="_blank" className="image-2">
+                    </a>
+                    <a href={mobLising} target="_blank" rel="noreferrer noopener" className="image-2">
                         <img src={mobLising} alt="Design Sprint" />
-                    </NavLink>
-                    <NavLink to={mobDocument} target="_blank" className="image-3">
+                    </a>
+                    <a href={mobDocument} target="_blank" rel="noreferrer noopener" className="image-3">
                         <img src={mobDocument} alt="Design Sprint" />
-                    </NavLink>
+                    </a>
                 </div>
 
             </div>

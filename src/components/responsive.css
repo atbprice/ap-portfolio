@@ -1,0 +1,112 @@
+@media screen and (max-width: 1024px) {
+    .heading-container {padding-bottom: 20px;}
+    .banner-title {font-size: 5rem !important;}
+    h3 {font-size: 25px !important;}
+    h1 {font-size: 2.5rem !important;}
+    h2 {font-size: 2rem !important;}
+    .title-container {margin-bottom: 3%}
+    .overview-container {margin: 0 5%;}
+
+    .colorbox {
+        width: 200px;
+        height: 140px;
+    
+    }
+    .r {margin-right: 0 !important;}
+    .b {margin-left: 114px;}
+    .proj-right img {margin-left: -114px; margin-top: 39px;}
+    .proj-left img {margin-left: -114px; margin-top: 42px;}
+    .proj-title h3 {font-size: 2.2rem;}s
+    p {font-size: 1.10rem;}
+    .into p {font-size: 1.10rem;}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .top-navi {
+        right: 2.2% !important;
+        top: 3% !important;
+    }
+
+    .banner-title {font-size: 5rem !important;}
+    h3 {font-size: 25px !important;}
+    h1 {font-size: 2.5rem !important;}
+    h2 {font-size: 2rem !important;}
+
+    .overview-container {margin: 0 5%;}
+    .heading-container {padding-bottom: 20px;}
+    .colorbox {
+        width: 150px;
+        height: 110px;
+    
+    }
+    .r {margin-right: 0 !important;}
+    .b {margin-left: 94px;}
+    .proj-right img {margin-left: -77px; margin-top: 39px;}
+    .proj-left img {margin-left: -83px; margin-top: 42px;}
+    .proj-title h3 {font-size: 2.2rem;}
+
+    p {font-size: 1.10rem;}
+    .intro p {font-size: 1.10rem;}
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-navi {
+        right: 2% !important;
+        top: 2% !important;
+        
+    }
+    .top-navi a {font-size: 1rem !important;}
+    .banner-title {font-size: 3rem !important;}
+    h3 {font-size: 1.5rem !important;}
+    .banner-sub {margin-top: -20px !important;}
+    .welcome {font-size: 1.25rem !important;}
+
+    .colorbox {
+        width: 80px;
+        height: 60px;
+    
+    }
+    .b {margin-left: 50px;}
+    .proj-right img {margin-left:-40px; margin-top:23px; }
+    .proj-left img {margin-left: -43px; margin-top: 23px;}
+    p {font-size: 0.875rem;}
+    .proj-link a { font-size: 1rem !important;}
+    .intro p {font-size: 1.10rem !important;}
+    h1 {font-size: 2.5rem !important;}
+    h2 {font-size: 1.75rem !important; margin-bottom: 0 !important;}
+     
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .colorbox {width: 45%; height: 140px;}
+    .b {margin-left: 26%;}
+    
+
+}
