@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ap-portfolio/static/css/main.bc545c3c.chunk.css",
+    "main.css": "/ap-portfolio/static/css/main.57fc1ba7.chunk.css",
     "main.js": "/ap-portfolio/static/js/main.c594eba7.chunk.js",
     "main.js.map": "/ap-portfolio/static/js/main.c594eba7.chunk.js.map",
     "runtime-main.js": "/ap-portfolio/static/js/runtime-main.f0f4dfc8.js",
@@ -8,9 +8,9 @@
     "static/js/2.ff55f663.chunk.js": "/ap-portfolio/static/js/2.ff55f663.chunk.js",
     "static/js/2.ff55f663.chunk.js.map": "/ap-portfolio/static/js/2.ff55f663.chunk.js.map",
     "index.html": "/ap-portfolio/index.html",
-    "precache-manifest.593978c15ba04ab8d108aef3613a6327.js": "/ap-portfolio/precache-manifest.593978c15ba04ab8d108aef3613a6327.js",
+    "precache-manifest.8e79f917fdb4ebee68ec756fc3ae4153.js": "/ap-portfolio/precache-manifest.8e79f917fdb4ebee68ec756fc3ae4153.js",
     "service-worker.js": "/ap-portfolio/service-worker.js",
-    "static/css/main.bc545c3c.chunk.css.map": "/ap-portfolio/static/css/main.bc545c3c.chunk.css.map",
+    "static/css/main.57fc1ba7.chunk.css.map": "/ap-portfolio/static/css/main.57fc1ba7.chunk.css.map",
     "static/media/Dashboard.png": "/ap-portfolio/static/media/Dashboard.e4053665.png",
     "static/media/Landing.png": "/ap-portfolio/static/media/Landing.9e00c873.png",
     "static/media/Theme-Default.png": "/ap-portfolio/static/media/Theme-Default.420424b8.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0f4dfc8.js",
     "static/js/2.ff55f663.chunk.js",
-    "static/css/main.bc545c3c.chunk.css",
+    "static/css/main.57fc1ba7.chunk.css",
     "static/js/main.c594eba7.chunk.js"
   ]
 }
