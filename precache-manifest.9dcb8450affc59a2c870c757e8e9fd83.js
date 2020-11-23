@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5424cdad0e8e76901d28e772a5740c78",
+    "revision": "920a369ddfc5de9e6b9f523cdd1d8651",
     "url": "/ap-portfolio/index.html"
   },
   {
-    "revision": "9bbceeb72642de8d389b",
-    "url": "/ap-portfolio/static/css/main.c9fce984.chunk.css"
+    "revision": "dd33bdf4a2b450823c65",
+    "url": "/ap-portfolio/static/css/main.29cf2df2.chunk.css"
   },
   {
-    "revision": "de6a0907b30d7f37bd19",
-    "url": "/ap-portfolio/static/js/2.ff55f663.chunk.js"
+    "revision": "531f6f4acd038554951e",
+    "url": "/ap-portfolio/static/js/2.c58b6a3e.chunk.js"
   },
   {
-    "revision": "9bbceeb72642de8d389b",
-    "url": "/ap-portfolio/static/js/main.847697f4.chunk.js"
+    "revision": "dd33bdf4a2b450823c65",
+    "url": "/ap-portfolio/static/js/main.aeb820bc.chunk.js"
   },
   {
     "revision": "d28b0fbac429b950a186",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/btn-light.0ceeba05.png"
   },
   {
+    "revision": "a6811a011a20081df39ae33f18e80ee0",
+    "url": "/ap-portfolio/static/media/debts.a6811a01.png"
+  },
+  {
     "revision": "a57eb1f577c7bf16181ce4c99749f48f",
     "url": "/ap-portfolio/static/media/designsprint.a57eb1f5.png"
   },
@@ -80,6 +84,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/file-listing2.7309919f.png"
   },
   {
+    "revision": "8725c2736646cde07ea553e1ccd51a11",
+    "url": "/ap-portfolio/static/media/landing.8725c273.png"
+  },
+  {
+    "revision": "8c05e3edf7954c398837aa7ae738d411",
+    "url": "/ap-portfolio/static/media/login.8c05e3ed.png"
+  },
+  {
     "revision": "4ea33abee7af7325b8d8db9789306518",
     "url": "/ap-portfolio/static/media/menu.4ea33abe.png"
   },
@@ -98,6 +110,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2a2be43e0c23a5b8c647635afd6247a7",
     "url": "/ap-portfolio/static/media/mob-list.2a2be43e.png"
+  },
+  {
+    "revision": "ea4a71e1c6af99e60f760efc39696d54",
+    "url": "/ap-portfolio/static/media/myhome.ea4a71e1.png"
+  },
+  {
+    "revision": "4a7a8c79fdd3abb64df35bb24e8cb428",
+    "url": "/ap-portfolio/static/media/payplan-laptop@2x.4a7a8c79.png"
   },
   {
     "revision": "053077d2dd275bb76076db83e7d87621",
