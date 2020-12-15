@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ap-portfolio/static/css/main.29cf2df2.chunk.css",
-    "main.js": "/ap-portfolio/static/js/main.c75f4146.chunk.js",
-    "main.js.map": "/ap-portfolio/static/js/main.c75f4146.chunk.js.map",
+    "main.css": "/ap-portfolio/static/css/main.66a51e9f.chunk.css",
+    "main.js": "/ap-portfolio/static/js/main.6e248f0a.chunk.js",
+    "main.js.map": "/ap-portfolio/static/js/main.6e248f0a.chunk.js.map",
     "runtime-main.js": "/ap-portfolio/static/js/runtime-main.f0f4dfc8.js",
     "runtime-main.js.map": "/ap-portfolio/static/js/runtime-main.f0f4dfc8.js.map",
-    "static/js/2.c58b6a3e.chunk.js": "/ap-portfolio/static/js/2.c58b6a3e.chunk.js",
-    "static/js/2.c58b6a3e.chunk.js.map": "/ap-portfolio/static/js/2.c58b6a3e.chunk.js.map",
+    "static/js/2.76c6a084.chunk.js": "/ap-portfolio/static/js/2.76c6a084.chunk.js",
+    "static/js/2.76c6a084.chunk.js.map": "/ap-portfolio/static/js/2.76c6a084.chunk.js.map",
     "index.html": "/ap-portfolio/index.html",
-    "precache-manifest.7aa73c13a8ee861095e4febc9a23438f.js": "/ap-portfolio/precache-manifest.7aa73c13a8ee861095e4febc9a23438f.js",
+    "precache-manifest.3523324586f09a53fd22d7449a1fa8a2.js": "/ap-portfolio/precache-manifest.3523324586f09a53fd22d7449a1fa8a2.js",
     "service-worker.js": "/ap-portfolio/service-worker.js",
-    "static/css/main.29cf2df2.chunk.css.map": "/ap-portfolio/static/css/main.29cf2df2.chunk.css.map",
+    "static/css/main.66a51e9f.chunk.css.map": "/ap-portfolio/static/css/main.66a51e9f.chunk.css.map",
     "static/media/Dashboard.png": "/ap-portfolio/static/media/Dashboard.e4053665.png",
     "static/media/Landing.png": "/ap-portfolio/static/media/Landing.9e00c873.png",
     "static/media/Theme-Default.png": "/ap-portfolio/static/media/Theme-Default.420424b8.png",
@@ -18,6 +18,7 @@
     "static/media/arch1.png": "/ap-portfolio/static/media/arch1.46288fc7.png",
     "static/media/arch2.png": "/ap-portfolio/static/media/arch2.e31adb9a.png",
     "static/media/arch3.png": "/ap-portfolio/static/media/arch3.37eed58d.png",
+    "static/media/bro.png": "/ap-portfolio/static/media/bro.ccf4bf9e.png",
     "static/media/btn-dark.png": "/ap-portfolio/static/media/btn-dark.6a51ca48.png",
     "static/media/btn-light.png": "/ap-portfolio/static/media/btn-light.0ceeba05.png",
     "static/media/debts.png": "/ap-portfolio/static/media/debts.a6811a01.png",
@@ -44,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f0f4dfc8.js",
-    "static/js/2.c58b6a3e.chunk.js",
-    "static/css/main.29cf2df2.chunk.css",
-    "static/js/main.c75f4146.chunk.js"
+    "static/js/2.76c6a084.chunk.js",
+    "static/css/main.66a51e9f.chunk.css",
+    "static/js/main.6e248f0a.chunk.js"
   ]
 }
