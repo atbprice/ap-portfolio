@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b67eb4f653bfdffd42c4a8a69ac9160",
+    "revision": "00b5df34526683144de95bd945992379",
     "url": "/ap-portfolio/index.html"
   },
   {
-    "revision": "a3acc34660093f371938",
-    "url": "/ap-portfolio/static/css/main.6442b9a2.chunk.css"
+    "revision": "7859a363bf39748486e7",
+    "url": "/ap-portfolio/static/css/main.6f1b4eda.chunk.css"
   },
   {
-    "revision": "a19b3eac6c33bf1cbc6d",
-    "url": "/ap-portfolio/static/js/2.76c6a084.chunk.js"
+    "revision": "8c6f58673c04956d86e3",
+    "url": "/ap-portfolio/static/js/2.fcaefc1e.chunk.js"
   },
   {
-    "revision": "a3acc34660093f371938",
-    "url": "/ap-portfolio/static/js/main.6e248f0a.chunk.js"
+    "revision": "7859a363bf39748486e7",
+    "url": "/ap-portfolio/static/js/main.256b5bfc.chunk.js"
   },
   {
     "revision": "d28b0fbac429b950a186",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/arch3.37eed58d.png"
   },
   {
+    "revision": "ab2eee47888d8e86b916f52c490485bf",
+    "url": "/ap-portfolio/static/media/bg-circles.ab2eee47.png"
+  },
+  {
     "revision": "ccf4bf9e7869ef41043795c7bf14e771",
     "url": "/ap-portfolio/static/media/bro.ccf4bf9e.png"
   },
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a57eb1f577c7bf16181ce4c99749f48f",
     "url": "/ap-portfolio/static/media/designsprint.a57eb1f5.png"
+  },
+  {
+    "revision": "4a24d8f0bffc4939e1402f754e3e3f4a",
+    "url": "/ap-portfolio/static/media/eInvoicing.4a24d8f0.png"
   },
   {
     "revision": "166c14a5a4a1bd3348134304862d563f",
@@ -122,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a7a8c79fdd3abb64df35bb24e8cb428",
     "url": "/ap-portfolio/static/media/payplan-laptop@2x.4a7a8c79.png"
+  },
+  {
+    "revision": "fe9287b32707dde6ec17efe7fa4daf1a",
+    "url": "/ap-portfolio/static/media/planfinder.fe9287b3.png"
   },
   {
     "revision": "053077d2dd275bb76076db83e7d87621",
