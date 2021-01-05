@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62675ff95d8bfe601fc4ecf47438d45b",
+    "revision": "f6e0f4e99e39b0b3410f64810957ad49",
     "url": "/ap-portfolio/index.html"
   },
   {
-    "revision": "187bc4def40bb4f1f69c",
-    "url": "/ap-portfolio/static/css/main.80360fc0.chunk.css"
+    "revision": "238de803d2d183ce5aff",
+    "url": "/ap-portfolio/static/css/main.5e857b8c.chunk.css"
   },
   {
-    "revision": "bccc10ca29ad69eced3b",
-    "url": "/ap-portfolio/static/js/2.514b783c.chunk.js"
+    "revision": "e44dbd3c5b90392b94b6",
+    "url": "/ap-portfolio/static/js/2.8bdd2ba8.chunk.js"
   },
   {
-    "revision": "187bc4def40bb4f1f69c",
-    "url": "/ap-portfolio/static/js/main.e0fa8f2d.chunk.js"
+    "revision": "238de803d2d183ce5aff",
+    "url": "/ap-portfolio/static/js/main.b7602988.chunk.js"
   },
   {
     "revision": "d28b0fbac429b950a186",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/btn-light.0ceeba05.png"
   },
   {
+    "revision": "b4ea30f6fcd6f46a986ddc05ec82cd6b",
+    "url": "/ap-portfolio/static/media/data-vis.b4ea30f6.png"
+  },
+  {
     "revision": "a6811a011a20081df39ae33f18e80ee0",
     "url": "/ap-portfolio/static/media/debts.a6811a01.png"
   },
@@ -78,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "166c14a5a4a1bd3348134304862d563f",
     "url": "/ap-portfolio/static/media/file-detail.166c14a5.png"
-  },
-  {
-    "revision": "68f3cfc22e8944b528f65a1df0154ebd",
-    "url": "/ap-portfolio/static/media/file-doc@2x.68f3cfc2.png"
   },
   {
     "revision": "609a5ac69f73a5e5305433e867aa3799",
