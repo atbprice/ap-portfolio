@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "416f78c0ea688ccb67f2ad68408072d6",
+    "revision": "f193c4e5f85a509f71688ead7d6a3981",
     "url": "/ap-portfolio/index.html"
   },
   {
-    "revision": "7438ea8ce30b44f16208",
-    "url": "/ap-portfolio/static/css/main.644b4f9b.chunk.css"
+    "revision": "ea8dc4b6d6a73ffc676a",
+    "url": "/ap-portfolio/static/css/main.81e43b26.chunk.css"
   },
   {
-    "revision": "9c4cdfc385146495cffb",
-    "url": "/ap-portfolio/static/js/2.e8cc4ed0.chunk.js"
+    "revision": "a3c284b15bb014b1f93a",
+    "url": "/ap-portfolio/static/js/2.23158113.chunk.js"
   },
   {
-    "revision": "7438ea8ce30b44f16208",
-    "url": "/ap-portfolio/static/js/main.9abe2b27.chunk.js"
+    "revision": "ea8dc4b6d6a73ffc676a",
+    "url": "/ap-portfolio/static/js/main.6c5fa262.chunk.js"
   },
   {
     "revision": "d28b0fbac429b950a186",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/btn-light.0ceeba05.png"
   },
   {
+    "revision": "0f40bcedc4d7b884838b28f3c2909764",
+    "url": "/ap-portfolio/static/media/core-background.0f40bced.png"
+  },
+  {
     "revision": "d6b23421840e353b4baaa83b6962e131",
     "url": "/ap-portfolio/static/media/dashboard-landing.d6b23421.png"
   },
@@ -114,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c05e3edf7954c398837aa7ae738d411",
     "url": "/ap-portfolio/static/media/login.8c05e3ed.png"
-  },
-  {
-    "revision": "9a41bf5c102fb3f490ba3ba57c413ca2",
-    "url": "/ap-portfolio/static/media/main-block.9a41bf5c.png"
   },
   {
     "revision": "4ea33abee7af7325b8d8db9789306518",
