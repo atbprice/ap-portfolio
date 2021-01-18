@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ap-portfolio/static/css/main.81e43b26.chunk.css",
+    "main.css": "/ap-portfolio/static/css/main.65aa9820.chunk.css",
     "main.js": "/ap-portfolio/static/js/main.6c5fa262.chunk.js",
     "main.js.map": "/ap-portfolio/static/js/main.6c5fa262.chunk.js.map",
     "runtime-main.js": "/ap-portfolio/static/js/runtime-main.f0f4dfc8.js",
@@ -8,9 +8,9 @@
     "static/js/2.23158113.chunk.js": "/ap-portfolio/static/js/2.23158113.chunk.js",
     "static/js/2.23158113.chunk.js.map": "/ap-portfolio/static/js/2.23158113.chunk.js.map",
     "index.html": "/ap-portfolio/index.html",
-    "precache-manifest.2dd103cd3c72cc689f865b236f451582.js": "/ap-portfolio/precache-manifest.2dd103cd3c72cc689f865b236f451582.js",
+    "precache-manifest.ed524bda1e2ee0f896019c02665fafb6.js": "/ap-portfolio/precache-manifest.ed524bda1e2ee0f896019c02665fafb6.js",
     "service-worker.js": "/ap-portfolio/service-worker.js",
-    "static/css/main.81e43b26.chunk.css.map": "/ap-portfolio/static/css/main.81e43b26.chunk.css.map",
+    "static/css/main.65aa9820.chunk.css.map": "/ap-portfolio/static/css/main.65aa9820.chunk.css.map",
     "static/media/Dashboard.png": "/ap-portfolio/static/media/Dashboard.e4053665.png",
     "static/media/Landing.png": "/ap-portfolio/static/media/Landing.9e00c873.png",
     "static/media/Paylink-dashboard.png": "/ap-portfolio/static/media/Paylink-dashboard.d0c1f97c.png",
@@ -65,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0f4dfc8.js",
     "static/js/2.23158113.chunk.js",
-    "static/css/main.81e43b26.chunk.css",
+    "static/css/main.65aa9820.chunk.css",
     "static/js/main.6c5fa262.chunk.js"
   ]
 }
