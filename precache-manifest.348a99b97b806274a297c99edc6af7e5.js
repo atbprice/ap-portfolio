@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83104948acf2c7d06317fd94da4fd7ff",
+    "revision": "7cefc408a652e44b40d45dc531299a39",
     "url": "/ap-portfolio/index.html"
   },
   {
-    "revision": "b86eb7a05ff772b08a2a",
-    "url": "/ap-portfolio/static/css/main.4c6e2072.chunk.css"
+    "revision": "71bf0f65418402b4bbed",
+    "url": "/ap-portfolio/static/css/main.416838eb.chunk.css"
   },
   {
-    "revision": "91ebfcd87cd60805e792",
-    "url": "/ap-portfolio/static/js/2.75d0aac6.chunk.js"
+    "revision": "21001682a0f4bde3423a",
+    "url": "/ap-portfolio/static/js/2.e7a764fb.chunk.js"
   },
   {
-    "revision": "b86eb7a05ff772b08a2a",
-    "url": "/ap-portfolio/static/js/main.9c789641.chunk.js"
+    "revision": "71bf0f65418402b4bbed",
+    "url": "/ap-portfolio/static/js/main.4e8d74d7.chunk.js"
   },
   {
     "revision": "d28b0fbac429b950a186",
@@ -68,8 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/btn-light.0ceeba05.png"
   },
   {
+    "revision": "fa9a080ab032cf2b528355be62ee07bd",
+    "url": "/ap-portfolio/static/media/dark-buttons.fa9a080a.png"
+  },
+  {
+    "revision": "707706f47c191414992d27b380a351fc",
+    "url": "/ap-portfolio/static/media/dark-theme.707706f4.png"
+  },
+  {
     "revision": "dc8e406554a4770830eb378969b7f913",
     "url": "/ap-portfolio/static/media/dashboardlanding.dc8e4065.png"
+  },
+  {
+    "revision": "b3aca495d7f0d35e12675b3f337b87ab",
+    "url": "/ap-portfolio/static/media/date-picker.b3aca495.png"
   },
   {
     "revision": "a6811a011a20081df39ae33f18e80ee0",
@@ -112,6 +124,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ap-portfolio/static/media/landing.8725c273.png"
   },
   {
+    "revision": "293a26a68587fbf593c115d081047d59",
+    "url": "/ap-portfolio/static/media/light-buttons.293a26a6.png"
+  },
+  {
+    "revision": "ac45ab06138bc2e4ba11e0f0db7f37b5",
+    "url": "/ap-portfolio/static/media/light-theme.ac45ab06.png"
+  },
+  {
     "revision": "8c05e3edf7954c398837aa7ae738d411",
     "url": "/ap-portfolio/static/media/login.8c05e3ed.png"
   },
@@ -138,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea4a71e1c6af99e60f760efc39696d54",
     "url": "/ap-portfolio/static/media/myhome.ea4a71e1.png"
+  },
+  {
+    "revision": "3a85c48bd2d1ea227eddfc0a2d5897bc",
+    "url": "/ap-portfolio/static/media/navigation.3a85c48b.png"
   },
   {
     "revision": "bcddbacad4604027129720e78385caae",
@@ -206,13 +230,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "439a1eea8e14384ba27d4d7251c80f98",
     "url": "/ap-portfolio/static/media/uno-platform@2x.439a1eea.png"
-  },
-  {
-    "revision": "5e29c98749d3c9f290ba8dadd65b6eb7",
-    "url": "/ap-portfolio/static/media/userflows.5e29c987.png"
-  },
-  {
-    "revision": "e4d3cd3e7de3d06de5bd7f131db01a12",
-    "url": "/ap-portfolio/static/media/userflows2.e4d3cd3e.png"
   }
 ]);
